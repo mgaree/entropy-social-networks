@@ -1,2 +1,1 @@
-# entropy-social-networks
-Supplemental material for "Experimental study of entropy in social influence networks" (working title)
+Online appendix for "Social influence network simulation design affects behavior of system-level entropy". This includes the source code and additional detailed results documents.
