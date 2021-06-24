@@ -1,0 +1,673 @@
+,agent_activation_regime,fraction_stubborn,influence_error_distribution,influence_model,network_structure_model,population_size
+1,synchronous,0.05,none,standard_model,erdos_renyi_random(N),1000
+2,synchronous,0.05,none,standard_model,"small_world(N, 0.0, 3)",1000
+3,synchronous,0.05,none,standard_model,"small_world(N, 0.0, 10)",1000
+4,synchronous,0.05,none,standard_model,"small_world(N, 0.66, 3)",1000
+5,synchronous,0.05,none,standard_model,"small_world(N, 0.66, 10)",1000
+6,synchronous,0.05,none,standard_model,"scale_free(N, 1)",1000
+7,synchronous,0.05,none,standard_model,"scale_free(N, 5)",1000
+8,synchronous,0.05,none,similarity_bias,erdos_renyi_random(N),1000
+9,synchronous,0.05,none,similarity_bias,"small_world(N, 0.0, 3)",1000
+10,synchronous,0.05,none,similarity_bias,"small_world(N, 0.0, 10)",1000
+11,synchronous,0.05,none,similarity_bias,"small_world(N, 0.66, 3)",1000
+12,synchronous,0.05,none,similarity_bias,"small_world(N, 0.66, 10)",1000
+13,synchronous,0.05,none,similarity_bias,"scale_free(N, 1)",1000
+14,synchronous,0.05,none,similarity_bias,"scale_free(N, 5)",1000
+15,synchronous,0.05,none,attractive_repulsive,erdos_renyi_random(N),1000
+16,synchronous,0.05,none,attractive_repulsive,"small_world(N, 0.0, 3)",1000
+17,synchronous,0.05,none,attractive_repulsive,"small_world(N, 0.0, 10)",1000
+18,synchronous,0.05,none,attractive_repulsive,"small_world(N, 0.66, 3)",1000
+19,synchronous,0.05,none,attractive_repulsive,"small_world(N, 0.66, 10)",1000
+20,synchronous,0.05,none,attractive_repulsive,"scale_free(N, 1)",1000
+21,synchronous,0.05,none,attractive_repulsive,"scale_free(N, 5)",1000
+22,synchronous,0.05,none,random_adoption,erdos_renyi_random(N),1000
+23,synchronous,0.05,none,random_adoption,"small_world(N, 0.0, 3)",1000
+24,synchronous,0.05,none,random_adoption,"small_world(N, 0.0, 10)",1000
+25,synchronous,0.05,none,random_adoption,"small_world(N, 0.66, 3)",1000
+26,synchronous,0.05,none,random_adoption,"small_world(N, 0.66, 10)",1000
+27,synchronous,0.05,none,random_adoption,"scale_free(N, 1)",1000
+28,synchronous,0.05,none,random_adoption,"scale_free(N, 5)",1000
+29,synchronous,0.05,"N(0, 0.05)",standard_model,erdos_renyi_random(N),1000
+30,synchronous,0.05,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",1000
+31,synchronous,0.05,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",1000
+32,synchronous,0.05,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",1000
+33,synchronous,0.05,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",1000
+34,synchronous,0.05,"N(0, 0.05)",standard_model,"scale_free(N, 1)",1000
+35,synchronous,0.05,"N(0, 0.05)",standard_model,"scale_free(N, 5)",1000
+36,synchronous,0.05,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),1000
+37,synchronous,0.05,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",1000
+38,synchronous,0.05,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",1000
+39,synchronous,0.05,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",1000
+40,synchronous,0.05,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",1000
+41,synchronous,0.05,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",1000
+42,synchronous,0.05,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",1000
+43,synchronous,0.05,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),1000
+44,synchronous,0.05,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+45,synchronous,0.05,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+46,synchronous,0.05,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+47,synchronous,0.05,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+48,synchronous,0.05,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",1000
+49,synchronous,0.05,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",1000
+50,synchronous,0.05,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),1000
+51,synchronous,0.05,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",1000
+52,synchronous,0.05,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",1000
+53,synchronous,0.05,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",1000
+54,synchronous,0.05,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",1000
+55,synchronous,0.05,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",1000
+56,synchronous,0.05,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",1000
+57,synchronous,0.05,"N(0, 0.1)",standard_model,erdos_renyi_random(N),1000
+58,synchronous,0.05,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",1000
+59,synchronous,0.05,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",1000
+60,synchronous,0.05,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",1000
+61,synchronous,0.05,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",1000
+62,synchronous,0.05,"N(0, 0.1)",standard_model,"scale_free(N, 1)",1000
+63,synchronous,0.05,"N(0, 0.1)",standard_model,"scale_free(N, 5)",1000
+64,synchronous,0.05,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),1000
+65,synchronous,0.05,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",1000
+66,synchronous,0.05,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",1000
+67,synchronous,0.05,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",1000
+68,synchronous,0.05,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",1000
+69,synchronous,0.05,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",1000
+70,synchronous,0.05,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",1000
+71,synchronous,0.05,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),1000
+72,synchronous,0.05,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+73,synchronous,0.05,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+74,synchronous,0.05,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+75,synchronous,0.05,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+76,synchronous,0.05,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",1000
+77,synchronous,0.05,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",1000
+78,synchronous,0.05,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),1000
+79,synchronous,0.05,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",1000
+80,synchronous,0.05,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",1000
+81,synchronous,0.05,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",1000
+82,synchronous,0.05,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",1000
+83,synchronous,0.05,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",1000
+84,synchronous,0.05,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",1000
+85,synchronous,0.15,none,standard_model,erdos_renyi_random(N),1000
+86,synchronous,0.15,none,standard_model,"small_world(N, 0.0, 3)",1000
+87,synchronous,0.15,none,standard_model,"small_world(N, 0.0, 10)",1000
+88,synchronous,0.15,none,standard_model,"small_world(N, 0.66, 3)",1000
+89,synchronous,0.15,none,standard_model,"small_world(N, 0.66, 10)",1000
+90,synchronous,0.15,none,standard_model,"scale_free(N, 1)",1000
+91,synchronous,0.15,none,standard_model,"scale_free(N, 5)",1000
+92,synchronous,0.15,none,similarity_bias,erdos_renyi_random(N),1000
+93,synchronous,0.15,none,similarity_bias,"small_world(N, 0.0, 3)",1000
+94,synchronous,0.15,none,similarity_bias,"small_world(N, 0.0, 10)",1000
+95,synchronous,0.15,none,similarity_bias,"small_world(N, 0.66, 3)",1000
+96,synchronous,0.15,none,similarity_bias,"small_world(N, 0.66, 10)",1000
+97,synchronous,0.15,none,similarity_bias,"scale_free(N, 1)",1000
+98,synchronous,0.15,none,similarity_bias,"scale_free(N, 5)",1000
+99,synchronous,0.15,none,attractive_repulsive,erdos_renyi_random(N),1000
+100,synchronous,0.15,none,attractive_repulsive,"small_world(N, 0.0, 3)",1000
+101,synchronous,0.15,none,attractive_repulsive,"small_world(N, 0.0, 10)",1000
+102,synchronous,0.15,none,attractive_repulsive,"small_world(N, 0.66, 3)",1000
+103,synchronous,0.15,none,attractive_repulsive,"small_world(N, 0.66, 10)",1000
+104,synchronous,0.15,none,attractive_repulsive,"scale_free(N, 1)",1000
+105,synchronous,0.15,none,attractive_repulsive,"scale_free(N, 5)",1000
+106,synchronous,0.15,none,random_adoption,erdos_renyi_random(N),1000
+107,synchronous,0.15,none,random_adoption,"small_world(N, 0.0, 3)",1000
+108,synchronous,0.15,none,random_adoption,"small_world(N, 0.0, 10)",1000
+109,synchronous,0.15,none,random_adoption,"small_world(N, 0.66, 3)",1000
+110,synchronous,0.15,none,random_adoption,"small_world(N, 0.66, 10)",1000
+111,synchronous,0.15,none,random_adoption,"scale_free(N, 1)",1000
+112,synchronous,0.15,none,random_adoption,"scale_free(N, 5)",1000
+113,synchronous,0.15,"N(0, 0.05)",standard_model,erdos_renyi_random(N),1000
+114,synchronous,0.15,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",1000
+115,synchronous,0.15,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",1000
+116,synchronous,0.15,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",1000
+117,synchronous,0.15,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",1000
+118,synchronous,0.15,"N(0, 0.05)",standard_model,"scale_free(N, 1)",1000
+119,synchronous,0.15,"N(0, 0.05)",standard_model,"scale_free(N, 5)",1000
+120,synchronous,0.15,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),1000
+121,synchronous,0.15,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",1000
+122,synchronous,0.15,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",1000
+123,synchronous,0.15,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",1000
+124,synchronous,0.15,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",1000
+125,synchronous,0.15,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",1000
+126,synchronous,0.15,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",1000
+127,synchronous,0.15,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),1000
+128,synchronous,0.15,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+129,synchronous,0.15,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+130,synchronous,0.15,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+131,synchronous,0.15,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+132,synchronous,0.15,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",1000
+133,synchronous,0.15,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",1000
+134,synchronous,0.15,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),1000
+135,synchronous,0.15,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",1000
+136,synchronous,0.15,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",1000
+137,synchronous,0.15,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",1000
+138,synchronous,0.15,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",1000
+139,synchronous,0.15,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",1000
+140,synchronous,0.15,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",1000
+141,synchronous,0.15,"N(0, 0.1)",standard_model,erdos_renyi_random(N),1000
+142,synchronous,0.15,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",1000
+143,synchronous,0.15,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",1000
+144,synchronous,0.15,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",1000
+145,synchronous,0.15,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",1000
+146,synchronous,0.15,"N(0, 0.1)",standard_model,"scale_free(N, 1)",1000
+147,synchronous,0.15,"N(0, 0.1)",standard_model,"scale_free(N, 5)",1000
+148,synchronous,0.15,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),1000
+149,synchronous,0.15,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",1000
+150,synchronous,0.15,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",1000
+151,synchronous,0.15,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",1000
+152,synchronous,0.15,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",1000
+153,synchronous,0.15,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",1000
+154,synchronous,0.15,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",1000
+155,synchronous,0.15,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),1000
+156,synchronous,0.15,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+157,synchronous,0.15,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+158,synchronous,0.15,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+159,synchronous,0.15,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+160,synchronous,0.15,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",1000
+161,synchronous,0.15,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",1000
+162,synchronous,0.15,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),1000
+163,synchronous,0.15,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",1000
+164,synchronous,0.15,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",1000
+165,synchronous,0.15,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",1000
+166,synchronous,0.15,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",1000
+167,synchronous,0.15,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",1000
+168,synchronous,0.15,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",1000
+169,synchronous,0.33,none,standard_model,erdos_renyi_random(N),1000
+170,synchronous,0.33,none,standard_model,"small_world(N, 0.0, 3)",1000
+171,synchronous,0.33,none,standard_model,"small_world(N, 0.0, 10)",1000
+172,synchronous,0.33,none,standard_model,"small_world(N, 0.66, 3)",1000
+173,synchronous,0.33,none,standard_model,"small_world(N, 0.66, 10)",1000
+174,synchronous,0.33,none,standard_model,"scale_free(N, 1)",1000
+175,synchronous,0.33,none,standard_model,"scale_free(N, 5)",1000
+176,synchronous,0.33,none,similarity_bias,erdos_renyi_random(N),1000
+177,synchronous,0.33,none,similarity_bias,"small_world(N, 0.0, 3)",1000
+178,synchronous,0.33,none,similarity_bias,"small_world(N, 0.0, 10)",1000
+179,synchronous,0.33,none,similarity_bias,"small_world(N, 0.66, 3)",1000
+180,synchronous,0.33,none,similarity_bias,"small_world(N, 0.66, 10)",1000
+181,synchronous,0.33,none,similarity_bias,"scale_free(N, 1)",1000
+182,synchronous,0.33,none,similarity_bias,"scale_free(N, 5)",1000
+183,synchronous,0.33,none,attractive_repulsive,erdos_renyi_random(N),1000
+184,synchronous,0.33,none,attractive_repulsive,"small_world(N, 0.0, 3)",1000
+185,synchronous,0.33,none,attractive_repulsive,"small_world(N, 0.0, 10)",1000
+186,synchronous,0.33,none,attractive_repulsive,"small_world(N, 0.66, 3)",1000
+187,synchronous,0.33,none,attractive_repulsive,"small_world(N, 0.66, 10)",1000
+188,synchronous,0.33,none,attractive_repulsive,"scale_free(N, 1)",1000
+189,synchronous,0.33,none,attractive_repulsive,"scale_free(N, 5)",1000
+190,synchronous,0.33,none,random_adoption,erdos_renyi_random(N),1000
+191,synchronous,0.33,none,random_adoption,"small_world(N, 0.0, 3)",1000
+192,synchronous,0.33,none,random_adoption,"small_world(N, 0.0, 10)",1000
+193,synchronous,0.33,none,random_adoption,"small_world(N, 0.66, 3)",1000
+194,synchronous,0.33,none,random_adoption,"small_world(N, 0.66, 10)",1000
+195,synchronous,0.33,none,random_adoption,"scale_free(N, 1)",1000
+196,synchronous,0.33,none,random_adoption,"scale_free(N, 5)",1000
+197,synchronous,0.33,"N(0, 0.05)",standard_model,erdos_renyi_random(N),1000
+198,synchronous,0.33,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",1000
+199,synchronous,0.33,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",1000
+200,synchronous,0.33,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",1000
+201,synchronous,0.33,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",1000
+202,synchronous,0.33,"N(0, 0.05)",standard_model,"scale_free(N, 1)",1000
+203,synchronous,0.33,"N(0, 0.05)",standard_model,"scale_free(N, 5)",1000
+204,synchronous,0.33,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),1000
+205,synchronous,0.33,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",1000
+206,synchronous,0.33,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",1000
+207,synchronous,0.33,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",1000
+208,synchronous,0.33,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",1000
+209,synchronous,0.33,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",1000
+210,synchronous,0.33,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",1000
+211,synchronous,0.33,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),1000
+212,synchronous,0.33,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+213,synchronous,0.33,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+214,synchronous,0.33,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+215,synchronous,0.33,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+216,synchronous,0.33,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",1000
+217,synchronous,0.33,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",1000
+218,synchronous,0.33,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),1000
+219,synchronous,0.33,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",1000
+220,synchronous,0.33,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",1000
+221,synchronous,0.33,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",1000
+222,synchronous,0.33,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",1000
+223,synchronous,0.33,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",1000
+224,synchronous,0.33,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",1000
+225,synchronous,0.33,"N(0, 0.1)",standard_model,erdos_renyi_random(N),1000
+226,synchronous,0.33,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",1000
+227,synchronous,0.33,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",1000
+228,synchronous,0.33,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",1000
+229,synchronous,0.33,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",1000
+230,synchronous,0.33,"N(0, 0.1)",standard_model,"scale_free(N, 1)",1000
+231,synchronous,0.33,"N(0, 0.1)",standard_model,"scale_free(N, 5)",1000
+232,synchronous,0.33,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),1000
+233,synchronous,0.33,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",1000
+234,synchronous,0.33,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",1000
+235,synchronous,0.33,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",1000
+236,synchronous,0.33,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",1000
+237,synchronous,0.33,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",1000
+238,synchronous,0.33,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",1000
+239,synchronous,0.33,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),1000
+240,synchronous,0.33,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+241,synchronous,0.33,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+242,synchronous,0.33,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+243,synchronous,0.33,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+244,synchronous,0.33,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",1000
+245,synchronous,0.33,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",1000
+246,synchronous,0.33,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),1000
+247,synchronous,0.33,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",1000
+248,synchronous,0.33,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",1000
+249,synchronous,0.33,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",1000
+250,synchronous,0.33,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",1000
+251,synchronous,0.33,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",1000
+252,synchronous,0.33,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",1000
+253,synchronous,0.5,none,standard_model,erdos_renyi_random(N),1000
+254,synchronous,0.5,none,standard_model,"small_world(N, 0.0, 3)",1000
+255,synchronous,0.5,none,standard_model,"small_world(N, 0.0, 10)",1000
+256,synchronous,0.5,none,standard_model,"small_world(N, 0.66, 3)",1000
+257,synchronous,0.5,none,standard_model,"small_world(N, 0.66, 10)",1000
+258,synchronous,0.5,none,standard_model,"scale_free(N, 1)",1000
+259,synchronous,0.5,none,standard_model,"scale_free(N, 5)",1000
+260,synchronous,0.5,none,similarity_bias,erdos_renyi_random(N),1000
+261,synchronous,0.5,none,similarity_bias,"small_world(N, 0.0, 3)",1000
+262,synchronous,0.5,none,similarity_bias,"small_world(N, 0.0, 10)",1000
+263,synchronous,0.5,none,similarity_bias,"small_world(N, 0.66, 3)",1000
+264,synchronous,0.5,none,similarity_bias,"small_world(N, 0.66, 10)",1000
+265,synchronous,0.5,none,similarity_bias,"scale_free(N, 1)",1000
+266,synchronous,0.5,none,similarity_bias,"scale_free(N, 5)",1000
+267,synchronous,0.5,none,attractive_repulsive,erdos_renyi_random(N),1000
+268,synchronous,0.5,none,attractive_repulsive,"small_world(N, 0.0, 3)",1000
+269,synchronous,0.5,none,attractive_repulsive,"small_world(N, 0.0, 10)",1000
+270,synchronous,0.5,none,attractive_repulsive,"small_world(N, 0.66, 3)",1000
+271,synchronous,0.5,none,attractive_repulsive,"small_world(N, 0.66, 10)",1000
+272,synchronous,0.5,none,attractive_repulsive,"scale_free(N, 1)",1000
+273,synchronous,0.5,none,attractive_repulsive,"scale_free(N, 5)",1000
+274,synchronous,0.5,none,random_adoption,erdos_renyi_random(N),1000
+275,synchronous,0.5,none,random_adoption,"small_world(N, 0.0, 3)",1000
+276,synchronous,0.5,none,random_adoption,"small_world(N, 0.0, 10)",1000
+277,synchronous,0.5,none,random_adoption,"small_world(N, 0.66, 3)",1000
+278,synchronous,0.5,none,random_adoption,"small_world(N, 0.66, 10)",1000
+279,synchronous,0.5,none,random_adoption,"scale_free(N, 1)",1000
+280,synchronous,0.5,none,random_adoption,"scale_free(N, 5)",1000
+281,synchronous,0.5,"N(0, 0.05)",standard_model,erdos_renyi_random(N),1000
+282,synchronous,0.5,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",1000
+283,synchronous,0.5,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",1000
+284,synchronous,0.5,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",1000
+285,synchronous,0.5,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",1000
+286,synchronous,0.5,"N(0, 0.05)",standard_model,"scale_free(N, 1)",1000
+287,synchronous,0.5,"N(0, 0.05)",standard_model,"scale_free(N, 5)",1000
+288,synchronous,0.5,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),1000
+289,synchronous,0.5,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",1000
+290,synchronous,0.5,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",1000
+291,synchronous,0.5,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",1000
+292,synchronous,0.5,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",1000
+293,synchronous,0.5,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",1000
+294,synchronous,0.5,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",1000
+295,synchronous,0.5,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),1000
+296,synchronous,0.5,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+297,synchronous,0.5,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+298,synchronous,0.5,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+299,synchronous,0.5,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+300,synchronous,0.5,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",1000
+301,synchronous,0.5,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",1000
+302,synchronous,0.5,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),1000
+303,synchronous,0.5,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",1000
+304,synchronous,0.5,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",1000
+305,synchronous,0.5,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",1000
+306,synchronous,0.5,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",1000
+307,synchronous,0.5,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",1000
+308,synchronous,0.5,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",1000
+309,synchronous,0.5,"N(0, 0.1)",standard_model,erdos_renyi_random(N),1000
+310,synchronous,0.5,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",1000
+311,synchronous,0.5,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",1000
+312,synchronous,0.5,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",1000
+313,synchronous,0.5,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",1000
+314,synchronous,0.5,"N(0, 0.1)",standard_model,"scale_free(N, 1)",1000
+315,synchronous,0.5,"N(0, 0.1)",standard_model,"scale_free(N, 5)",1000
+316,synchronous,0.5,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),1000
+317,synchronous,0.5,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",1000
+318,synchronous,0.5,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",1000
+319,synchronous,0.5,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",1000
+320,synchronous,0.5,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",1000
+321,synchronous,0.5,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",1000
+322,synchronous,0.5,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",1000
+323,synchronous,0.5,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),1000
+324,synchronous,0.5,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+325,synchronous,0.5,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+326,synchronous,0.5,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+327,synchronous,0.5,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+328,synchronous,0.5,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",1000
+329,synchronous,0.5,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",1000
+330,synchronous,0.5,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),1000
+331,synchronous,0.5,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",1000
+332,synchronous,0.5,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",1000
+333,synchronous,0.5,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",1000
+334,synchronous,0.5,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",1000
+335,synchronous,0.5,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",1000
+336,synchronous,0.5,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",1000
+337,random,0.05,none,standard_model,erdos_renyi_random(N),1000
+338,random,0.05,none,standard_model,"small_world(N, 0.0, 3)",1000
+339,random,0.05,none,standard_model,"small_world(N, 0.0, 10)",1000
+340,random,0.05,none,standard_model,"small_world(N, 0.66, 3)",1000
+341,random,0.05,none,standard_model,"small_world(N, 0.66, 10)",1000
+342,random,0.05,none,standard_model,"scale_free(N, 1)",1000
+343,random,0.05,none,standard_model,"scale_free(N, 5)",1000
+344,random,0.05,none,similarity_bias,erdos_renyi_random(N),1000
+345,random,0.05,none,similarity_bias,"small_world(N, 0.0, 3)",1000
+346,random,0.05,none,similarity_bias,"small_world(N, 0.0, 10)",1000
+347,random,0.05,none,similarity_bias,"small_world(N, 0.66, 3)",1000
+348,random,0.05,none,similarity_bias,"small_world(N, 0.66, 10)",1000
+349,random,0.05,none,similarity_bias,"scale_free(N, 1)",1000
+350,random,0.05,none,similarity_bias,"scale_free(N, 5)",1000
+351,random,0.05,none,attractive_repulsive,erdos_renyi_random(N),1000
+352,random,0.05,none,attractive_repulsive,"small_world(N, 0.0, 3)",1000
+353,random,0.05,none,attractive_repulsive,"small_world(N, 0.0, 10)",1000
+354,random,0.05,none,attractive_repulsive,"small_world(N, 0.66, 3)",1000
+355,random,0.05,none,attractive_repulsive,"small_world(N, 0.66, 10)",1000
+356,random,0.05,none,attractive_repulsive,"scale_free(N, 1)",1000
+357,random,0.05,none,attractive_repulsive,"scale_free(N, 5)",1000
+358,random,0.05,none,random_adoption,erdos_renyi_random(N),1000
+359,random,0.05,none,random_adoption,"small_world(N, 0.0, 3)",1000
+360,random,0.05,none,random_adoption,"small_world(N, 0.0, 10)",1000
+361,random,0.05,none,random_adoption,"small_world(N, 0.66, 3)",1000
+362,random,0.05,none,random_adoption,"small_world(N, 0.66, 10)",1000
+363,random,0.05,none,random_adoption,"scale_free(N, 1)",1000
+364,random,0.05,none,random_adoption,"scale_free(N, 5)",1000
+365,random,0.05,"N(0, 0.05)",standard_model,erdos_renyi_random(N),1000
+366,random,0.05,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",1000
+367,random,0.05,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",1000
+368,random,0.05,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",1000
+369,random,0.05,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",1000
+370,random,0.05,"N(0, 0.05)",standard_model,"scale_free(N, 1)",1000
+371,random,0.05,"N(0, 0.05)",standard_model,"scale_free(N, 5)",1000
+372,random,0.05,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),1000
+373,random,0.05,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",1000
+374,random,0.05,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",1000
+375,random,0.05,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",1000
+376,random,0.05,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",1000
+377,random,0.05,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",1000
+378,random,0.05,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",1000
+379,random,0.05,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),1000
+380,random,0.05,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+381,random,0.05,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+382,random,0.05,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+383,random,0.05,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+384,random,0.05,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",1000
+385,random,0.05,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",1000
+386,random,0.05,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),1000
+387,random,0.05,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",1000
+388,random,0.05,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",1000
+389,random,0.05,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",1000
+390,random,0.05,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",1000
+391,random,0.05,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",1000
+392,random,0.05,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",1000
+393,random,0.05,"N(0, 0.1)",standard_model,erdos_renyi_random(N),1000
+394,random,0.05,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",1000
+395,random,0.05,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",1000
+396,random,0.05,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",1000
+397,random,0.05,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",1000
+398,random,0.05,"N(0, 0.1)",standard_model,"scale_free(N, 1)",1000
+399,random,0.05,"N(0, 0.1)",standard_model,"scale_free(N, 5)",1000
+400,random,0.05,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),1000
+401,random,0.05,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",1000
+402,random,0.05,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",1000
+403,random,0.05,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",1000
+404,random,0.05,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",1000
+405,random,0.05,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",1000
+406,random,0.05,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",1000
+407,random,0.05,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),1000
+408,random,0.05,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+409,random,0.05,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+410,random,0.05,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+411,random,0.05,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+412,random,0.05,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",1000
+413,random,0.05,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",1000
+414,random,0.05,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),1000
+415,random,0.05,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",1000
+416,random,0.05,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",1000
+417,random,0.05,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",1000
+418,random,0.05,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",1000
+419,random,0.05,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",1000
+420,random,0.05,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",1000
+421,random,0.15,none,standard_model,erdos_renyi_random(N),1000
+422,random,0.15,none,standard_model,"small_world(N, 0.0, 3)",1000
+423,random,0.15,none,standard_model,"small_world(N, 0.0, 10)",1000
+424,random,0.15,none,standard_model,"small_world(N, 0.66, 3)",1000
+425,random,0.15,none,standard_model,"small_world(N, 0.66, 10)",1000
+426,random,0.15,none,standard_model,"scale_free(N, 1)",1000
+427,random,0.15,none,standard_model,"scale_free(N, 5)",1000
+428,random,0.15,none,similarity_bias,erdos_renyi_random(N),1000
+429,random,0.15,none,similarity_bias,"small_world(N, 0.0, 3)",1000
+430,random,0.15,none,similarity_bias,"small_world(N, 0.0, 10)",1000
+431,random,0.15,none,similarity_bias,"small_world(N, 0.66, 3)",1000
+432,random,0.15,none,similarity_bias,"small_world(N, 0.66, 10)",1000
+433,random,0.15,none,similarity_bias,"scale_free(N, 1)",1000
+434,random,0.15,none,similarity_bias,"scale_free(N, 5)",1000
+435,random,0.15,none,attractive_repulsive,erdos_renyi_random(N),1000
+436,random,0.15,none,attractive_repulsive,"small_world(N, 0.0, 3)",1000
+437,random,0.15,none,attractive_repulsive,"small_world(N, 0.0, 10)",1000
+438,random,0.15,none,attractive_repulsive,"small_world(N, 0.66, 3)",1000
+439,random,0.15,none,attractive_repulsive,"small_world(N, 0.66, 10)",1000
+440,random,0.15,none,attractive_repulsive,"scale_free(N, 1)",1000
+441,random,0.15,none,attractive_repulsive,"scale_free(N, 5)",1000
+442,random,0.15,none,random_adoption,erdos_renyi_random(N),1000
+443,random,0.15,none,random_adoption,"small_world(N, 0.0, 3)",1000
+444,random,0.15,none,random_adoption,"small_world(N, 0.0, 10)",1000
+445,random,0.15,none,random_adoption,"small_world(N, 0.66, 3)",1000
+446,random,0.15,none,random_adoption,"small_world(N, 0.66, 10)",1000
+447,random,0.15,none,random_adoption,"scale_free(N, 1)",1000
+448,random,0.15,none,random_adoption,"scale_free(N, 5)",1000
+449,random,0.15,"N(0, 0.05)",standard_model,erdos_renyi_random(N),1000
+450,random,0.15,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",1000
+451,random,0.15,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",1000
+452,random,0.15,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",1000
+453,random,0.15,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",1000
+454,random,0.15,"N(0, 0.05)",standard_model,"scale_free(N, 1)",1000
+455,random,0.15,"N(0, 0.05)",standard_model,"scale_free(N, 5)",1000
+456,random,0.15,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),1000
+457,random,0.15,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",1000
+458,random,0.15,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",1000
+459,random,0.15,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",1000
+460,random,0.15,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",1000
+461,random,0.15,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",1000
+462,random,0.15,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",1000
+463,random,0.15,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),1000
+464,random,0.15,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+465,random,0.15,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+466,random,0.15,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+467,random,0.15,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+468,random,0.15,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",1000
+469,random,0.15,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",1000
+470,random,0.15,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),1000
+471,random,0.15,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",1000
+472,random,0.15,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",1000
+473,random,0.15,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",1000
+474,random,0.15,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",1000
+475,random,0.15,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",1000
+476,random,0.15,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",1000
+477,random,0.15,"N(0, 0.1)",standard_model,erdos_renyi_random(N),1000
+478,random,0.15,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",1000
+479,random,0.15,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",1000
+480,random,0.15,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",1000
+481,random,0.15,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",1000
+482,random,0.15,"N(0, 0.1)",standard_model,"scale_free(N, 1)",1000
+483,random,0.15,"N(0, 0.1)",standard_model,"scale_free(N, 5)",1000
+484,random,0.15,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),1000
+485,random,0.15,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",1000
+486,random,0.15,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",1000
+487,random,0.15,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",1000
+488,random,0.15,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",1000
+489,random,0.15,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",1000
+490,random,0.15,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",1000
+491,random,0.15,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),1000
+492,random,0.15,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+493,random,0.15,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+494,random,0.15,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+495,random,0.15,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+496,random,0.15,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",1000
+497,random,0.15,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",1000
+498,random,0.15,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),1000
+499,random,0.15,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",1000
+500,random,0.15,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",1000
+501,random,0.15,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",1000
+502,random,0.15,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",1000
+503,random,0.15,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",1000
+504,random,0.15,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",1000
+505,random,0.33,none,standard_model,erdos_renyi_random(N),1000
+506,random,0.33,none,standard_model,"small_world(N, 0.0, 3)",1000
+507,random,0.33,none,standard_model,"small_world(N, 0.0, 10)",1000
+508,random,0.33,none,standard_model,"small_world(N, 0.66, 3)",1000
+509,random,0.33,none,standard_model,"small_world(N, 0.66, 10)",1000
+510,random,0.33,none,standard_model,"scale_free(N, 1)",1000
+511,random,0.33,none,standard_model,"scale_free(N, 5)",1000
+512,random,0.33,none,similarity_bias,erdos_renyi_random(N),1000
+513,random,0.33,none,similarity_bias,"small_world(N, 0.0, 3)",1000
+514,random,0.33,none,similarity_bias,"small_world(N, 0.0, 10)",1000
+515,random,0.33,none,similarity_bias,"small_world(N, 0.66, 3)",1000
+516,random,0.33,none,similarity_bias,"small_world(N, 0.66, 10)",1000
+517,random,0.33,none,similarity_bias,"scale_free(N, 1)",1000
+518,random,0.33,none,similarity_bias,"scale_free(N, 5)",1000
+519,random,0.33,none,attractive_repulsive,erdos_renyi_random(N),1000
+520,random,0.33,none,attractive_repulsive,"small_world(N, 0.0, 3)",1000
+521,random,0.33,none,attractive_repulsive,"small_world(N, 0.0, 10)",1000
+522,random,0.33,none,attractive_repulsive,"small_world(N, 0.66, 3)",1000
+523,random,0.33,none,attractive_repulsive,"small_world(N, 0.66, 10)",1000
+524,random,0.33,none,attractive_repulsive,"scale_free(N, 1)",1000
+525,random,0.33,none,attractive_repulsive,"scale_free(N, 5)",1000
+526,random,0.33,none,random_adoption,erdos_renyi_random(N),1000
+527,random,0.33,none,random_adoption,"small_world(N, 0.0, 3)",1000
+528,random,0.33,none,random_adoption,"small_world(N, 0.0, 10)",1000
+529,random,0.33,none,random_adoption,"small_world(N, 0.66, 3)",1000
+530,random,0.33,none,random_adoption,"small_world(N, 0.66, 10)",1000
+531,random,0.33,none,random_adoption,"scale_free(N, 1)",1000
+532,random,0.33,none,random_adoption,"scale_free(N, 5)",1000
+533,random,0.33,"N(0, 0.05)",standard_model,erdos_renyi_random(N),1000
+534,random,0.33,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",1000
+535,random,0.33,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",1000
+536,random,0.33,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",1000
+537,random,0.33,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",1000
+538,random,0.33,"N(0, 0.05)",standard_model,"scale_free(N, 1)",1000
+539,random,0.33,"N(0, 0.05)",standard_model,"scale_free(N, 5)",1000
+540,random,0.33,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),1000
+541,random,0.33,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",1000
+542,random,0.33,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",1000
+543,random,0.33,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",1000
+544,random,0.33,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",1000
+545,random,0.33,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",1000
+546,random,0.33,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",1000
+547,random,0.33,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),1000
+548,random,0.33,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+549,random,0.33,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+550,random,0.33,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+551,random,0.33,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+552,random,0.33,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",1000
+553,random,0.33,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",1000
+554,random,0.33,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),1000
+555,random,0.33,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",1000
+556,random,0.33,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",1000
+557,random,0.33,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",1000
+558,random,0.33,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",1000
+559,random,0.33,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",1000
+560,random,0.33,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",1000
+561,random,0.33,"N(0, 0.1)",standard_model,erdos_renyi_random(N),1000
+562,random,0.33,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",1000
+563,random,0.33,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",1000
+564,random,0.33,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",1000
+565,random,0.33,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",1000
+566,random,0.33,"N(0, 0.1)",standard_model,"scale_free(N, 1)",1000
+567,random,0.33,"N(0, 0.1)",standard_model,"scale_free(N, 5)",1000
+568,random,0.33,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),1000
+569,random,0.33,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",1000
+570,random,0.33,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",1000
+571,random,0.33,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",1000
+572,random,0.33,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",1000
+573,random,0.33,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",1000
+574,random,0.33,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",1000
+575,random,0.33,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),1000
+576,random,0.33,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+577,random,0.33,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+578,random,0.33,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+579,random,0.33,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+580,random,0.33,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",1000
+581,random,0.33,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",1000
+582,random,0.33,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),1000
+583,random,0.33,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",1000
+584,random,0.33,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",1000
+585,random,0.33,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",1000
+586,random,0.33,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",1000
+587,random,0.33,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",1000
+588,random,0.33,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",1000
+589,random,0.5,none,standard_model,erdos_renyi_random(N),1000
+590,random,0.5,none,standard_model,"small_world(N, 0.0, 3)",1000
+591,random,0.5,none,standard_model,"small_world(N, 0.0, 10)",1000
+592,random,0.5,none,standard_model,"small_world(N, 0.66, 3)",1000
+593,random,0.5,none,standard_model,"small_world(N, 0.66, 10)",1000
+594,random,0.5,none,standard_model,"scale_free(N, 1)",1000
+595,random,0.5,none,standard_model,"scale_free(N, 5)",1000
+596,random,0.5,none,similarity_bias,erdos_renyi_random(N),1000
+597,random,0.5,none,similarity_bias,"small_world(N, 0.0, 3)",1000
+598,random,0.5,none,similarity_bias,"small_world(N, 0.0, 10)",1000
+599,random,0.5,none,similarity_bias,"small_world(N, 0.66, 3)",1000
+600,random,0.5,none,similarity_bias,"small_world(N, 0.66, 10)",1000
+601,random,0.5,none,similarity_bias,"scale_free(N, 1)",1000
+602,random,0.5,none,similarity_bias,"scale_free(N, 5)",1000
+603,random,0.5,none,attractive_repulsive,erdos_renyi_random(N),1000
+604,random,0.5,none,attractive_repulsive,"small_world(N, 0.0, 3)",1000
+605,random,0.5,none,attractive_repulsive,"small_world(N, 0.0, 10)",1000
+606,random,0.5,none,attractive_repulsive,"small_world(N, 0.66, 3)",1000
+607,random,0.5,none,attractive_repulsive,"small_world(N, 0.66, 10)",1000
+608,random,0.5,none,attractive_repulsive,"scale_free(N, 1)",1000
+609,random,0.5,none,attractive_repulsive,"scale_free(N, 5)",1000
+610,random,0.5,none,random_adoption,erdos_renyi_random(N),1000
+611,random,0.5,none,random_adoption,"small_world(N, 0.0, 3)",1000
+612,random,0.5,none,random_adoption,"small_world(N, 0.0, 10)",1000
+613,random,0.5,none,random_adoption,"small_world(N, 0.66, 3)",1000
+614,random,0.5,none,random_adoption,"small_world(N, 0.66, 10)",1000
+615,random,0.5,none,random_adoption,"scale_free(N, 1)",1000
+616,random,0.5,none,random_adoption,"scale_free(N, 5)",1000
+617,random,0.5,"N(0, 0.05)",standard_model,erdos_renyi_random(N),1000
+618,random,0.5,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",1000
+619,random,0.5,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",1000
+620,random,0.5,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",1000
+621,random,0.5,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",1000
+622,random,0.5,"N(0, 0.05)",standard_model,"scale_free(N, 1)",1000
+623,random,0.5,"N(0, 0.05)",standard_model,"scale_free(N, 5)",1000
+624,random,0.5,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),1000
+625,random,0.5,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",1000
+626,random,0.5,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",1000
+627,random,0.5,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",1000
+628,random,0.5,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",1000
+629,random,0.5,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",1000
+630,random,0.5,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",1000
+631,random,0.5,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),1000
+632,random,0.5,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+633,random,0.5,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+634,random,0.5,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+635,random,0.5,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+636,random,0.5,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",1000
+637,random,0.5,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",1000
+638,random,0.5,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),1000
+639,random,0.5,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",1000
+640,random,0.5,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",1000
+641,random,0.5,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",1000
+642,random,0.5,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",1000
+643,random,0.5,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",1000
+644,random,0.5,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",1000
+645,random,0.5,"N(0, 0.1)",standard_model,erdos_renyi_random(N),1000
+646,random,0.5,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",1000
+647,random,0.5,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",1000
+648,random,0.5,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",1000
+649,random,0.5,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",1000
+650,random,0.5,"N(0, 0.1)",standard_model,"scale_free(N, 1)",1000
+651,random,0.5,"N(0, 0.1)",standard_model,"scale_free(N, 5)",1000
+652,random,0.5,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),1000
+653,random,0.5,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",1000
+654,random,0.5,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",1000
+655,random,0.5,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",1000
+656,random,0.5,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",1000
+657,random,0.5,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",1000
+658,random,0.5,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",1000
+659,random,0.5,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),1000
+660,random,0.5,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+661,random,0.5,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+662,random,0.5,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+663,random,0.5,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+664,random,0.5,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",1000
+665,random,0.5,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",1000
+666,random,0.5,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),1000
+667,random,0.5,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",1000
+668,random,0.5,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",1000
+669,random,0.5,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",1000
+670,random,0.5,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",1000
+671,random,0.5,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",1000
+672,random,0.5,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",1000

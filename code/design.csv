@@ -1,0 +1,1801 @@
+,agent_activation_regime,influence_error_distribution,influence_model,network_structure_model,population_size
+1,synchronous,none,standard_model,erdos_renyi_random(N),100
+2,synchronous,none,standard_model,erdos_renyi_random(N),1000
+3,synchronous,none,standard_model,erdos_renyi_random(N),10000
+4,synchronous,none,standard_model,"small_world(N, 0.0, 3)",100
+5,synchronous,none,standard_model,"small_world(N, 0.0, 3)",1000
+6,synchronous,none,standard_model,"small_world(N, 0.0, 3)",10000
+7,synchronous,none,standard_model,"small_world(N, 0.0, 10)",100
+8,synchronous,none,standard_model,"small_world(N, 0.0, 10)",1000
+9,synchronous,none,standard_model,"small_world(N, 0.0, 10)",10000
+10,synchronous,none,standard_model,"small_world(N, 0.33, 3)",100
+11,synchronous,none,standard_model,"small_world(N, 0.33, 3)",1000
+12,synchronous,none,standard_model,"small_world(N, 0.33, 3)",10000
+13,synchronous,none,standard_model,"small_world(N, 0.33, 10)",100
+14,synchronous,none,standard_model,"small_world(N, 0.33, 10)",1000
+15,synchronous,none,standard_model,"small_world(N, 0.33, 10)",10000
+16,synchronous,none,standard_model,"small_world(N, 0.66, 3)",100
+17,synchronous,none,standard_model,"small_world(N, 0.66, 3)",1000
+18,synchronous,none,standard_model,"small_world(N, 0.66, 3)",10000
+19,synchronous,none,standard_model,"small_world(N, 0.66, 10)",100
+20,synchronous,none,standard_model,"small_world(N, 0.66, 10)",1000
+21,synchronous,none,standard_model,"small_world(N, 0.66, 10)",10000
+22,synchronous,none,standard_model,"scale_free(N, 1)",100
+23,synchronous,none,standard_model,"scale_free(N, 1)",1000
+24,synchronous,none,standard_model,"scale_free(N, 1)",10000
+25,synchronous,none,standard_model,"scale_free(N, 3)",100
+26,synchronous,none,standard_model,"scale_free(N, 3)",1000
+27,synchronous,none,standard_model,"scale_free(N, 3)",10000
+28,synchronous,none,standard_model,"scale_free(N, 5)",100
+29,synchronous,none,standard_model,"scale_free(N, 5)",1000
+30,synchronous,none,standard_model,"scale_free(N, 5)",10000
+31,synchronous,none,similarity_bias,erdos_renyi_random(N),100
+32,synchronous,none,similarity_bias,erdos_renyi_random(N),1000
+33,synchronous,none,similarity_bias,erdos_renyi_random(N),10000
+34,synchronous,none,similarity_bias,"small_world(N, 0.0, 3)",100
+35,synchronous,none,similarity_bias,"small_world(N, 0.0, 3)",1000
+36,synchronous,none,similarity_bias,"small_world(N, 0.0, 3)",10000
+37,synchronous,none,similarity_bias,"small_world(N, 0.0, 10)",100
+38,synchronous,none,similarity_bias,"small_world(N, 0.0, 10)",1000
+39,synchronous,none,similarity_bias,"small_world(N, 0.0, 10)",10000
+40,synchronous,none,similarity_bias,"small_world(N, 0.33, 3)",100
+41,synchronous,none,similarity_bias,"small_world(N, 0.33, 3)",1000
+42,synchronous,none,similarity_bias,"small_world(N, 0.33, 3)",10000
+43,synchronous,none,similarity_bias,"small_world(N, 0.33, 10)",100
+44,synchronous,none,similarity_bias,"small_world(N, 0.33, 10)",1000
+45,synchronous,none,similarity_bias,"small_world(N, 0.33, 10)",10000
+46,synchronous,none,similarity_bias,"small_world(N, 0.66, 3)",100
+47,synchronous,none,similarity_bias,"small_world(N, 0.66, 3)",1000
+48,synchronous,none,similarity_bias,"small_world(N, 0.66, 3)",10000
+49,synchronous,none,similarity_bias,"small_world(N, 0.66, 10)",100
+50,synchronous,none,similarity_bias,"small_world(N, 0.66, 10)",1000
+51,synchronous,none,similarity_bias,"small_world(N, 0.66, 10)",10000
+52,synchronous,none,similarity_bias,"scale_free(N, 1)",100
+53,synchronous,none,similarity_bias,"scale_free(N, 1)",1000
+54,synchronous,none,similarity_bias,"scale_free(N, 1)",10000
+55,synchronous,none,similarity_bias,"scale_free(N, 3)",100
+56,synchronous,none,similarity_bias,"scale_free(N, 3)",1000
+57,synchronous,none,similarity_bias,"scale_free(N, 3)",10000
+58,synchronous,none,similarity_bias,"scale_free(N, 5)",100
+59,synchronous,none,similarity_bias,"scale_free(N, 5)",1000
+60,synchronous,none,similarity_bias,"scale_free(N, 5)",10000
+61,synchronous,none,attractive_repulsive,erdos_renyi_random(N),100
+62,synchronous,none,attractive_repulsive,erdos_renyi_random(N),1000
+63,synchronous,none,attractive_repulsive,erdos_renyi_random(N),10000
+64,synchronous,none,attractive_repulsive,"small_world(N, 0.0, 3)",100
+65,synchronous,none,attractive_repulsive,"small_world(N, 0.0, 3)",1000
+66,synchronous,none,attractive_repulsive,"small_world(N, 0.0, 3)",10000
+67,synchronous,none,attractive_repulsive,"small_world(N, 0.0, 10)",100
+68,synchronous,none,attractive_repulsive,"small_world(N, 0.0, 10)",1000
+69,synchronous,none,attractive_repulsive,"small_world(N, 0.0, 10)",10000
+70,synchronous,none,attractive_repulsive,"small_world(N, 0.33, 3)",100
+71,synchronous,none,attractive_repulsive,"small_world(N, 0.33, 3)",1000
+72,synchronous,none,attractive_repulsive,"small_world(N, 0.33, 3)",10000
+73,synchronous,none,attractive_repulsive,"small_world(N, 0.33, 10)",100
+74,synchronous,none,attractive_repulsive,"small_world(N, 0.33, 10)",1000
+75,synchronous,none,attractive_repulsive,"small_world(N, 0.33, 10)",10000
+76,synchronous,none,attractive_repulsive,"small_world(N, 0.66, 3)",100
+77,synchronous,none,attractive_repulsive,"small_world(N, 0.66, 3)",1000
+78,synchronous,none,attractive_repulsive,"small_world(N, 0.66, 3)",10000
+79,synchronous,none,attractive_repulsive,"small_world(N, 0.66, 10)",100
+80,synchronous,none,attractive_repulsive,"small_world(N, 0.66, 10)",1000
+81,synchronous,none,attractive_repulsive,"small_world(N, 0.66, 10)",10000
+82,synchronous,none,attractive_repulsive,"scale_free(N, 1)",100
+83,synchronous,none,attractive_repulsive,"scale_free(N, 1)",1000
+84,synchronous,none,attractive_repulsive,"scale_free(N, 1)",10000
+85,synchronous,none,attractive_repulsive,"scale_free(N, 3)",100
+86,synchronous,none,attractive_repulsive,"scale_free(N, 3)",1000
+87,synchronous,none,attractive_repulsive,"scale_free(N, 3)",10000
+88,synchronous,none,attractive_repulsive,"scale_free(N, 5)",100
+89,synchronous,none,attractive_repulsive,"scale_free(N, 5)",1000
+90,synchronous,none,attractive_repulsive,"scale_free(N, 5)",10000
+91,synchronous,none,random_adoption,erdos_renyi_random(N),100
+92,synchronous,none,random_adoption,erdos_renyi_random(N),1000
+93,synchronous,none,random_adoption,erdos_renyi_random(N),10000
+94,synchronous,none,random_adoption,"small_world(N, 0.0, 3)",100
+95,synchronous,none,random_adoption,"small_world(N, 0.0, 3)",1000
+96,synchronous,none,random_adoption,"small_world(N, 0.0, 3)",10000
+97,synchronous,none,random_adoption,"small_world(N, 0.0, 10)",100
+98,synchronous,none,random_adoption,"small_world(N, 0.0, 10)",1000
+99,synchronous,none,random_adoption,"small_world(N, 0.0, 10)",10000
+100,synchronous,none,random_adoption,"small_world(N, 0.33, 3)",100
+101,synchronous,none,random_adoption,"small_world(N, 0.33, 3)",1000
+102,synchronous,none,random_adoption,"small_world(N, 0.33, 3)",10000
+103,synchronous,none,random_adoption,"small_world(N, 0.33, 10)",100
+104,synchronous,none,random_adoption,"small_world(N, 0.33, 10)",1000
+105,synchronous,none,random_adoption,"small_world(N, 0.33, 10)",10000
+106,synchronous,none,random_adoption,"small_world(N, 0.66, 3)",100
+107,synchronous,none,random_adoption,"small_world(N, 0.66, 3)",1000
+108,synchronous,none,random_adoption,"small_world(N, 0.66, 3)",10000
+109,synchronous,none,random_adoption,"small_world(N, 0.66, 10)",100
+110,synchronous,none,random_adoption,"small_world(N, 0.66, 10)",1000
+111,synchronous,none,random_adoption,"small_world(N, 0.66, 10)",10000
+112,synchronous,none,random_adoption,"scale_free(N, 1)",100
+113,synchronous,none,random_adoption,"scale_free(N, 1)",1000
+114,synchronous,none,random_adoption,"scale_free(N, 1)",10000
+115,synchronous,none,random_adoption,"scale_free(N, 3)",100
+116,synchronous,none,random_adoption,"scale_free(N, 3)",1000
+117,synchronous,none,random_adoption,"scale_free(N, 3)",10000
+118,synchronous,none,random_adoption,"scale_free(N, 5)",100
+119,synchronous,none,random_adoption,"scale_free(N, 5)",1000
+120,synchronous,none,random_adoption,"scale_free(N, 5)",10000
+121,synchronous,none,nonlinear,erdos_renyi_random(N),100
+122,synchronous,none,nonlinear,erdos_renyi_random(N),1000
+123,synchronous,none,nonlinear,erdos_renyi_random(N),10000
+124,synchronous,none,nonlinear,"small_world(N, 0.0, 3)",100
+125,synchronous,none,nonlinear,"small_world(N, 0.0, 3)",1000
+126,synchronous,none,nonlinear,"small_world(N, 0.0, 3)",10000
+127,synchronous,none,nonlinear,"small_world(N, 0.0, 10)",100
+128,synchronous,none,nonlinear,"small_world(N, 0.0, 10)",1000
+129,synchronous,none,nonlinear,"small_world(N, 0.0, 10)",10000
+130,synchronous,none,nonlinear,"small_world(N, 0.33, 3)",100
+131,synchronous,none,nonlinear,"small_world(N, 0.33, 3)",1000
+132,synchronous,none,nonlinear,"small_world(N, 0.33, 3)",10000
+133,synchronous,none,nonlinear,"small_world(N, 0.33, 10)",100
+134,synchronous,none,nonlinear,"small_world(N, 0.33, 10)",1000
+135,synchronous,none,nonlinear,"small_world(N, 0.33, 10)",10000
+136,synchronous,none,nonlinear,"small_world(N, 0.66, 3)",100
+137,synchronous,none,nonlinear,"small_world(N, 0.66, 3)",1000
+138,synchronous,none,nonlinear,"small_world(N, 0.66, 3)",10000
+139,synchronous,none,nonlinear,"small_world(N, 0.66, 10)",100
+140,synchronous,none,nonlinear,"small_world(N, 0.66, 10)",1000
+141,synchronous,none,nonlinear,"small_world(N, 0.66, 10)",10000
+142,synchronous,none,nonlinear,"scale_free(N, 1)",100
+143,synchronous,none,nonlinear,"scale_free(N, 1)",1000
+144,synchronous,none,nonlinear,"scale_free(N, 1)",10000
+145,synchronous,none,nonlinear,"scale_free(N, 3)",100
+146,synchronous,none,nonlinear,"scale_free(N, 3)",1000
+147,synchronous,none,nonlinear,"scale_free(N, 3)",10000
+148,synchronous,none,nonlinear,"scale_free(N, 5)",100
+149,synchronous,none,nonlinear,"scale_free(N, 5)",1000
+150,synchronous,none,nonlinear,"scale_free(N, 5)",10000
+151,synchronous,"N(0, 0.05)",standard_model,erdos_renyi_random(N),100
+152,synchronous,"N(0, 0.05)",standard_model,erdos_renyi_random(N),1000
+153,synchronous,"N(0, 0.05)",standard_model,erdos_renyi_random(N),10000
+154,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",100
+155,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",1000
+156,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",10000
+157,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",100
+158,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",1000
+159,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",10000
+160,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 3)",100
+161,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 3)",1000
+162,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 3)",10000
+163,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 10)",100
+164,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 10)",1000
+165,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 10)",10000
+166,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",100
+167,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",1000
+168,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",10000
+169,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",100
+170,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",1000
+171,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",10000
+172,synchronous,"N(0, 0.05)",standard_model,"scale_free(N, 1)",100
+173,synchronous,"N(0, 0.05)",standard_model,"scale_free(N, 1)",1000
+174,synchronous,"N(0, 0.05)",standard_model,"scale_free(N, 1)",10000
+175,synchronous,"N(0, 0.05)",standard_model,"scale_free(N, 3)",100
+176,synchronous,"N(0, 0.05)",standard_model,"scale_free(N, 3)",1000
+177,synchronous,"N(0, 0.05)",standard_model,"scale_free(N, 3)",10000
+178,synchronous,"N(0, 0.05)",standard_model,"scale_free(N, 5)",100
+179,synchronous,"N(0, 0.05)",standard_model,"scale_free(N, 5)",1000
+180,synchronous,"N(0, 0.05)",standard_model,"scale_free(N, 5)",10000
+181,synchronous,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),100
+182,synchronous,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),1000
+183,synchronous,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),10000
+184,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",100
+185,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",1000
+186,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",10000
+187,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",100
+188,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",1000
+189,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",10000
+190,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 3)",100
+191,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 3)",1000
+192,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 3)",10000
+193,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 10)",100
+194,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 10)",1000
+195,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 10)",10000
+196,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",100
+197,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",1000
+198,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",10000
+199,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",100
+200,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",1000
+201,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",10000
+202,synchronous,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",100
+203,synchronous,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",1000
+204,synchronous,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",10000
+205,synchronous,"N(0, 0.05)",similarity_bias,"scale_free(N, 3)",100
+206,synchronous,"N(0, 0.05)",similarity_bias,"scale_free(N, 3)",1000
+207,synchronous,"N(0, 0.05)",similarity_bias,"scale_free(N, 3)",10000
+208,synchronous,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",100
+209,synchronous,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",1000
+210,synchronous,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",10000
+211,synchronous,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),100
+212,synchronous,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),1000
+213,synchronous,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),10000
+214,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",100
+215,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+216,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",10000
+217,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",100
+218,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+219,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",10000
+220,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 3)",100
+221,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 3)",1000
+222,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 3)",10000
+223,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 10)",100
+224,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 10)",1000
+225,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 10)",10000
+226,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",100
+227,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+228,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",10000
+229,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",100
+230,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+231,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",10000
+232,synchronous,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",100
+233,synchronous,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",1000
+234,synchronous,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",10000
+235,synchronous,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 3)",100
+236,synchronous,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 3)",1000
+237,synchronous,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 3)",10000
+238,synchronous,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",100
+239,synchronous,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",1000
+240,synchronous,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",10000
+241,synchronous,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),100
+242,synchronous,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),1000
+243,synchronous,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),10000
+244,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",100
+245,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",1000
+246,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",10000
+247,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",100
+248,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",1000
+249,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",10000
+250,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 3)",100
+251,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 3)",1000
+252,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 3)",10000
+253,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 10)",100
+254,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 10)",1000
+255,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 10)",10000
+256,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",100
+257,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",1000
+258,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",10000
+259,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",100
+260,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",1000
+261,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",10000
+262,synchronous,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",100
+263,synchronous,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",1000
+264,synchronous,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",10000
+265,synchronous,"N(0, 0.05)",random_adoption,"scale_free(N, 3)",100
+266,synchronous,"N(0, 0.05)",random_adoption,"scale_free(N, 3)",1000
+267,synchronous,"N(0, 0.05)",random_adoption,"scale_free(N, 3)",10000
+268,synchronous,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",100
+269,synchronous,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",1000
+270,synchronous,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",10000
+271,synchronous,"N(0, 0.05)",nonlinear,erdos_renyi_random(N),100
+272,synchronous,"N(0, 0.05)",nonlinear,erdos_renyi_random(N),1000
+273,synchronous,"N(0, 0.05)",nonlinear,erdos_renyi_random(N),10000
+274,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 3)",100
+275,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 3)",1000
+276,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 3)",10000
+277,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 10)",100
+278,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 10)",1000
+279,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 10)",10000
+280,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 3)",100
+281,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 3)",1000
+282,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 3)",10000
+283,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 10)",100
+284,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 10)",1000
+285,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 10)",10000
+286,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 3)",100
+287,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 3)",1000
+288,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 3)",10000
+289,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 10)",100
+290,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 10)",1000
+291,synchronous,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 10)",10000
+292,synchronous,"N(0, 0.05)",nonlinear,"scale_free(N, 1)",100
+293,synchronous,"N(0, 0.05)",nonlinear,"scale_free(N, 1)",1000
+294,synchronous,"N(0, 0.05)",nonlinear,"scale_free(N, 1)",10000
+295,synchronous,"N(0, 0.05)",nonlinear,"scale_free(N, 3)",100
+296,synchronous,"N(0, 0.05)",nonlinear,"scale_free(N, 3)",1000
+297,synchronous,"N(0, 0.05)",nonlinear,"scale_free(N, 3)",10000
+298,synchronous,"N(0, 0.05)",nonlinear,"scale_free(N, 5)",100
+299,synchronous,"N(0, 0.05)",nonlinear,"scale_free(N, 5)",1000
+300,synchronous,"N(0, 0.05)",nonlinear,"scale_free(N, 5)",10000
+301,synchronous,"N(0, 0.1)",standard_model,erdos_renyi_random(N),100
+302,synchronous,"N(0, 0.1)",standard_model,erdos_renyi_random(N),1000
+303,synchronous,"N(0, 0.1)",standard_model,erdos_renyi_random(N),10000
+304,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",100
+305,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",1000
+306,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",10000
+307,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",100
+308,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",1000
+309,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",10000
+310,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 3)",100
+311,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 3)",1000
+312,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 3)",10000
+313,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 10)",100
+314,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 10)",1000
+315,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 10)",10000
+316,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",100
+317,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",1000
+318,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",10000
+319,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",100
+320,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",1000
+321,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",10000
+322,synchronous,"N(0, 0.1)",standard_model,"scale_free(N, 1)",100
+323,synchronous,"N(0, 0.1)",standard_model,"scale_free(N, 1)",1000
+324,synchronous,"N(0, 0.1)",standard_model,"scale_free(N, 1)",10000
+325,synchronous,"N(0, 0.1)",standard_model,"scale_free(N, 3)",100
+326,synchronous,"N(0, 0.1)",standard_model,"scale_free(N, 3)",1000
+327,synchronous,"N(0, 0.1)",standard_model,"scale_free(N, 3)",10000
+328,synchronous,"N(0, 0.1)",standard_model,"scale_free(N, 5)",100
+329,synchronous,"N(0, 0.1)",standard_model,"scale_free(N, 5)",1000
+330,synchronous,"N(0, 0.1)",standard_model,"scale_free(N, 5)",10000
+331,synchronous,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),100
+332,synchronous,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),1000
+333,synchronous,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),10000
+334,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",100
+335,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",1000
+336,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",10000
+337,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",100
+338,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",1000
+339,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",10000
+340,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 3)",100
+341,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 3)",1000
+342,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 3)",10000
+343,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 10)",100
+344,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 10)",1000
+345,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 10)",10000
+346,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",100
+347,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",1000
+348,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",10000
+349,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",100
+350,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",1000
+351,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",10000
+352,synchronous,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",100
+353,synchronous,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",1000
+354,synchronous,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",10000
+355,synchronous,"N(0, 0.1)",similarity_bias,"scale_free(N, 3)",100
+356,synchronous,"N(0, 0.1)",similarity_bias,"scale_free(N, 3)",1000
+357,synchronous,"N(0, 0.1)",similarity_bias,"scale_free(N, 3)",10000
+358,synchronous,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",100
+359,synchronous,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",1000
+360,synchronous,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",10000
+361,synchronous,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),100
+362,synchronous,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),1000
+363,synchronous,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),10000
+364,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",100
+365,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+366,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",10000
+367,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",100
+368,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+369,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",10000
+370,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 3)",100
+371,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 3)",1000
+372,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 3)",10000
+373,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 10)",100
+374,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 10)",1000
+375,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 10)",10000
+376,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",100
+377,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+378,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",10000
+379,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",100
+380,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+381,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",10000
+382,synchronous,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",100
+383,synchronous,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",1000
+384,synchronous,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",10000
+385,synchronous,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 3)",100
+386,synchronous,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 3)",1000
+387,synchronous,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 3)",10000
+388,synchronous,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",100
+389,synchronous,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",1000
+390,synchronous,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",10000
+391,synchronous,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),100
+392,synchronous,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),1000
+393,synchronous,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),10000
+394,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",100
+395,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",1000
+396,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",10000
+397,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",100
+398,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",1000
+399,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",10000
+400,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 3)",100
+401,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 3)",1000
+402,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 3)",10000
+403,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 10)",100
+404,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 10)",1000
+405,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 10)",10000
+406,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",100
+407,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",1000
+408,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",10000
+409,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",100
+410,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",1000
+411,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",10000
+412,synchronous,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",100
+413,synchronous,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",1000
+414,synchronous,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",10000
+415,synchronous,"N(0, 0.1)",random_adoption,"scale_free(N, 3)",100
+416,synchronous,"N(0, 0.1)",random_adoption,"scale_free(N, 3)",1000
+417,synchronous,"N(0, 0.1)",random_adoption,"scale_free(N, 3)",10000
+418,synchronous,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",100
+419,synchronous,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",1000
+420,synchronous,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",10000
+421,synchronous,"N(0, 0.1)",nonlinear,erdos_renyi_random(N),100
+422,synchronous,"N(0, 0.1)",nonlinear,erdos_renyi_random(N),1000
+423,synchronous,"N(0, 0.1)",nonlinear,erdos_renyi_random(N),10000
+424,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 3)",100
+425,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 3)",1000
+426,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 3)",10000
+427,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 10)",100
+428,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 10)",1000
+429,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 10)",10000
+430,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 3)",100
+431,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 3)",1000
+432,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 3)",10000
+433,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 10)",100
+434,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 10)",1000
+435,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 10)",10000
+436,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 3)",100
+437,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 3)",1000
+438,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 3)",10000
+439,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 10)",100
+440,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 10)",1000
+441,synchronous,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 10)",10000
+442,synchronous,"N(0, 0.1)",nonlinear,"scale_free(N, 1)",100
+443,synchronous,"N(0, 0.1)",nonlinear,"scale_free(N, 1)",1000
+444,synchronous,"N(0, 0.1)",nonlinear,"scale_free(N, 1)",10000
+445,synchronous,"N(0, 0.1)",nonlinear,"scale_free(N, 3)",100
+446,synchronous,"N(0, 0.1)",nonlinear,"scale_free(N, 3)",1000
+447,synchronous,"N(0, 0.1)",nonlinear,"scale_free(N, 3)",10000
+448,synchronous,"N(0, 0.1)",nonlinear,"scale_free(N, 5)",100
+449,synchronous,"N(0, 0.1)",nonlinear,"scale_free(N, 5)",1000
+450,synchronous,"N(0, 0.1)",nonlinear,"scale_free(N, 5)",10000
+451,synchronous,"N(0, 0.2)",standard_model,erdos_renyi_random(N),100
+452,synchronous,"N(0, 0.2)",standard_model,erdos_renyi_random(N),1000
+453,synchronous,"N(0, 0.2)",standard_model,erdos_renyi_random(N),10000
+454,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 3)",100
+455,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 3)",1000
+456,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 3)",10000
+457,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 10)",100
+458,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 10)",1000
+459,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 10)",10000
+460,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 3)",100
+461,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 3)",1000
+462,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 3)",10000
+463,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 10)",100
+464,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 10)",1000
+465,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 10)",10000
+466,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 3)",100
+467,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 3)",1000
+468,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 3)",10000
+469,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 10)",100
+470,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 10)",1000
+471,synchronous,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 10)",10000
+472,synchronous,"N(0, 0.2)",standard_model,"scale_free(N, 1)",100
+473,synchronous,"N(0, 0.2)",standard_model,"scale_free(N, 1)",1000
+474,synchronous,"N(0, 0.2)",standard_model,"scale_free(N, 1)",10000
+475,synchronous,"N(0, 0.2)",standard_model,"scale_free(N, 3)",100
+476,synchronous,"N(0, 0.2)",standard_model,"scale_free(N, 3)",1000
+477,synchronous,"N(0, 0.2)",standard_model,"scale_free(N, 3)",10000
+478,synchronous,"N(0, 0.2)",standard_model,"scale_free(N, 5)",100
+479,synchronous,"N(0, 0.2)",standard_model,"scale_free(N, 5)",1000
+480,synchronous,"N(0, 0.2)",standard_model,"scale_free(N, 5)",10000
+481,synchronous,"N(0, 0.2)",similarity_bias,erdos_renyi_random(N),100
+482,synchronous,"N(0, 0.2)",similarity_bias,erdos_renyi_random(N),1000
+483,synchronous,"N(0, 0.2)",similarity_bias,erdos_renyi_random(N),10000
+484,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 3)",100
+485,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 3)",1000
+486,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 3)",10000
+487,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 10)",100
+488,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 10)",1000
+489,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 10)",10000
+490,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 3)",100
+491,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 3)",1000
+492,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 3)",10000
+493,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 10)",100
+494,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 10)",1000
+495,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 10)",10000
+496,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 3)",100
+497,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 3)",1000
+498,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 3)",10000
+499,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 10)",100
+500,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 10)",1000
+501,synchronous,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 10)",10000
+502,synchronous,"N(0, 0.2)",similarity_bias,"scale_free(N, 1)",100
+503,synchronous,"N(0, 0.2)",similarity_bias,"scale_free(N, 1)",1000
+504,synchronous,"N(0, 0.2)",similarity_bias,"scale_free(N, 1)",10000
+505,synchronous,"N(0, 0.2)",similarity_bias,"scale_free(N, 3)",100
+506,synchronous,"N(0, 0.2)",similarity_bias,"scale_free(N, 3)",1000
+507,synchronous,"N(0, 0.2)",similarity_bias,"scale_free(N, 3)",10000
+508,synchronous,"N(0, 0.2)",similarity_bias,"scale_free(N, 5)",100
+509,synchronous,"N(0, 0.2)",similarity_bias,"scale_free(N, 5)",1000
+510,synchronous,"N(0, 0.2)",similarity_bias,"scale_free(N, 5)",10000
+511,synchronous,"N(0, 0.2)",attractive_repulsive,erdos_renyi_random(N),100
+512,synchronous,"N(0, 0.2)",attractive_repulsive,erdos_renyi_random(N),1000
+513,synchronous,"N(0, 0.2)",attractive_repulsive,erdos_renyi_random(N),10000
+514,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 3)",100
+515,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+516,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 3)",10000
+517,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 10)",100
+518,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+519,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 10)",10000
+520,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 3)",100
+521,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 3)",1000
+522,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 3)",10000
+523,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 10)",100
+524,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 10)",1000
+525,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 10)",10000
+526,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 3)",100
+527,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+528,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 3)",10000
+529,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 10)",100
+530,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+531,synchronous,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 10)",10000
+532,synchronous,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 1)",100
+533,synchronous,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 1)",1000
+534,synchronous,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 1)",10000
+535,synchronous,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 3)",100
+536,synchronous,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 3)",1000
+537,synchronous,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 3)",10000
+538,synchronous,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 5)",100
+539,synchronous,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 5)",1000
+540,synchronous,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 5)",10000
+541,synchronous,"N(0, 0.2)",random_adoption,erdos_renyi_random(N),100
+542,synchronous,"N(0, 0.2)",random_adoption,erdos_renyi_random(N),1000
+543,synchronous,"N(0, 0.2)",random_adoption,erdos_renyi_random(N),10000
+544,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 3)",100
+545,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 3)",1000
+546,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 3)",10000
+547,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 10)",100
+548,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 10)",1000
+549,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 10)",10000
+550,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 3)",100
+551,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 3)",1000
+552,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 3)",10000
+553,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 10)",100
+554,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 10)",1000
+555,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 10)",10000
+556,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 3)",100
+557,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 3)",1000
+558,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 3)",10000
+559,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 10)",100
+560,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 10)",1000
+561,synchronous,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 10)",10000
+562,synchronous,"N(0, 0.2)",random_adoption,"scale_free(N, 1)",100
+563,synchronous,"N(0, 0.2)",random_adoption,"scale_free(N, 1)",1000
+564,synchronous,"N(0, 0.2)",random_adoption,"scale_free(N, 1)",10000
+565,synchronous,"N(0, 0.2)",random_adoption,"scale_free(N, 3)",100
+566,synchronous,"N(0, 0.2)",random_adoption,"scale_free(N, 3)",1000
+567,synchronous,"N(0, 0.2)",random_adoption,"scale_free(N, 3)",10000
+568,synchronous,"N(0, 0.2)",random_adoption,"scale_free(N, 5)",100
+569,synchronous,"N(0, 0.2)",random_adoption,"scale_free(N, 5)",1000
+570,synchronous,"N(0, 0.2)",random_adoption,"scale_free(N, 5)",10000
+571,synchronous,"N(0, 0.2)",nonlinear,erdos_renyi_random(N),100
+572,synchronous,"N(0, 0.2)",nonlinear,erdos_renyi_random(N),1000
+573,synchronous,"N(0, 0.2)",nonlinear,erdos_renyi_random(N),10000
+574,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 3)",100
+575,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 3)",1000
+576,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 3)",10000
+577,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 10)",100
+578,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 10)",1000
+579,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 10)",10000
+580,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 3)",100
+581,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 3)",1000
+582,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 3)",10000
+583,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 10)",100
+584,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 10)",1000
+585,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 10)",10000
+586,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 3)",100
+587,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 3)",1000
+588,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 3)",10000
+589,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 10)",100
+590,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 10)",1000
+591,synchronous,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 10)",10000
+592,synchronous,"N(0, 0.2)",nonlinear,"scale_free(N, 1)",100
+593,synchronous,"N(0, 0.2)",nonlinear,"scale_free(N, 1)",1000
+594,synchronous,"N(0, 0.2)",nonlinear,"scale_free(N, 1)",10000
+595,synchronous,"N(0, 0.2)",nonlinear,"scale_free(N, 3)",100
+596,synchronous,"N(0, 0.2)",nonlinear,"scale_free(N, 3)",1000
+597,synchronous,"N(0, 0.2)",nonlinear,"scale_free(N, 3)",10000
+598,synchronous,"N(0, 0.2)",nonlinear,"scale_free(N, 5)",100
+599,synchronous,"N(0, 0.2)",nonlinear,"scale_free(N, 5)",1000
+600,synchronous,"N(0, 0.2)",nonlinear,"scale_free(N, 5)",10000
+601,uniform,none,standard_model,erdos_renyi_random(N),100
+602,uniform,none,standard_model,erdos_renyi_random(N),1000
+603,uniform,none,standard_model,erdos_renyi_random(N),10000
+604,uniform,none,standard_model,"small_world(N, 0.0, 3)",100
+605,uniform,none,standard_model,"small_world(N, 0.0, 3)",1000
+606,uniform,none,standard_model,"small_world(N, 0.0, 3)",10000
+607,uniform,none,standard_model,"small_world(N, 0.0, 10)",100
+608,uniform,none,standard_model,"small_world(N, 0.0, 10)",1000
+609,uniform,none,standard_model,"small_world(N, 0.0, 10)",10000
+610,uniform,none,standard_model,"small_world(N, 0.33, 3)",100
+611,uniform,none,standard_model,"small_world(N, 0.33, 3)",1000
+612,uniform,none,standard_model,"small_world(N, 0.33, 3)",10000
+613,uniform,none,standard_model,"small_world(N, 0.33, 10)",100
+614,uniform,none,standard_model,"small_world(N, 0.33, 10)",1000
+615,uniform,none,standard_model,"small_world(N, 0.33, 10)",10000
+616,uniform,none,standard_model,"small_world(N, 0.66, 3)",100
+617,uniform,none,standard_model,"small_world(N, 0.66, 3)",1000
+618,uniform,none,standard_model,"small_world(N, 0.66, 3)",10000
+619,uniform,none,standard_model,"small_world(N, 0.66, 10)",100
+620,uniform,none,standard_model,"small_world(N, 0.66, 10)",1000
+621,uniform,none,standard_model,"small_world(N, 0.66, 10)",10000
+622,uniform,none,standard_model,"scale_free(N, 1)",100
+623,uniform,none,standard_model,"scale_free(N, 1)",1000
+624,uniform,none,standard_model,"scale_free(N, 1)",10000
+625,uniform,none,standard_model,"scale_free(N, 3)",100
+626,uniform,none,standard_model,"scale_free(N, 3)",1000
+627,uniform,none,standard_model,"scale_free(N, 3)",10000
+628,uniform,none,standard_model,"scale_free(N, 5)",100
+629,uniform,none,standard_model,"scale_free(N, 5)",1000
+630,uniform,none,standard_model,"scale_free(N, 5)",10000
+631,uniform,none,similarity_bias,erdos_renyi_random(N),100
+632,uniform,none,similarity_bias,erdos_renyi_random(N),1000
+633,uniform,none,similarity_bias,erdos_renyi_random(N),10000
+634,uniform,none,similarity_bias,"small_world(N, 0.0, 3)",100
+635,uniform,none,similarity_bias,"small_world(N, 0.0, 3)",1000
+636,uniform,none,similarity_bias,"small_world(N, 0.0, 3)",10000
+637,uniform,none,similarity_bias,"small_world(N, 0.0, 10)",100
+638,uniform,none,similarity_bias,"small_world(N, 0.0, 10)",1000
+639,uniform,none,similarity_bias,"small_world(N, 0.0, 10)",10000
+640,uniform,none,similarity_bias,"small_world(N, 0.33, 3)",100
+641,uniform,none,similarity_bias,"small_world(N, 0.33, 3)",1000
+642,uniform,none,similarity_bias,"small_world(N, 0.33, 3)",10000
+643,uniform,none,similarity_bias,"small_world(N, 0.33, 10)",100
+644,uniform,none,similarity_bias,"small_world(N, 0.33, 10)",1000
+645,uniform,none,similarity_bias,"small_world(N, 0.33, 10)",10000
+646,uniform,none,similarity_bias,"small_world(N, 0.66, 3)",100
+647,uniform,none,similarity_bias,"small_world(N, 0.66, 3)",1000
+648,uniform,none,similarity_bias,"small_world(N, 0.66, 3)",10000
+649,uniform,none,similarity_bias,"small_world(N, 0.66, 10)",100
+650,uniform,none,similarity_bias,"small_world(N, 0.66, 10)",1000
+651,uniform,none,similarity_bias,"small_world(N, 0.66, 10)",10000
+652,uniform,none,similarity_bias,"scale_free(N, 1)",100
+653,uniform,none,similarity_bias,"scale_free(N, 1)",1000
+654,uniform,none,similarity_bias,"scale_free(N, 1)",10000
+655,uniform,none,similarity_bias,"scale_free(N, 3)",100
+656,uniform,none,similarity_bias,"scale_free(N, 3)",1000
+657,uniform,none,similarity_bias,"scale_free(N, 3)",10000
+658,uniform,none,similarity_bias,"scale_free(N, 5)",100
+659,uniform,none,similarity_bias,"scale_free(N, 5)",1000
+660,uniform,none,similarity_bias,"scale_free(N, 5)",10000
+661,uniform,none,attractive_repulsive,erdos_renyi_random(N),100
+662,uniform,none,attractive_repulsive,erdos_renyi_random(N),1000
+663,uniform,none,attractive_repulsive,erdos_renyi_random(N),10000
+664,uniform,none,attractive_repulsive,"small_world(N, 0.0, 3)",100
+665,uniform,none,attractive_repulsive,"small_world(N, 0.0, 3)",1000
+666,uniform,none,attractive_repulsive,"small_world(N, 0.0, 3)",10000
+667,uniform,none,attractive_repulsive,"small_world(N, 0.0, 10)",100
+668,uniform,none,attractive_repulsive,"small_world(N, 0.0, 10)",1000
+669,uniform,none,attractive_repulsive,"small_world(N, 0.0, 10)",10000
+670,uniform,none,attractive_repulsive,"small_world(N, 0.33, 3)",100
+671,uniform,none,attractive_repulsive,"small_world(N, 0.33, 3)",1000
+672,uniform,none,attractive_repulsive,"small_world(N, 0.33, 3)",10000
+673,uniform,none,attractive_repulsive,"small_world(N, 0.33, 10)",100
+674,uniform,none,attractive_repulsive,"small_world(N, 0.33, 10)",1000
+675,uniform,none,attractive_repulsive,"small_world(N, 0.33, 10)",10000
+676,uniform,none,attractive_repulsive,"small_world(N, 0.66, 3)",100
+677,uniform,none,attractive_repulsive,"small_world(N, 0.66, 3)",1000
+678,uniform,none,attractive_repulsive,"small_world(N, 0.66, 3)",10000
+679,uniform,none,attractive_repulsive,"small_world(N, 0.66, 10)",100
+680,uniform,none,attractive_repulsive,"small_world(N, 0.66, 10)",1000
+681,uniform,none,attractive_repulsive,"small_world(N, 0.66, 10)",10000
+682,uniform,none,attractive_repulsive,"scale_free(N, 1)",100
+683,uniform,none,attractive_repulsive,"scale_free(N, 1)",1000
+684,uniform,none,attractive_repulsive,"scale_free(N, 1)",10000
+685,uniform,none,attractive_repulsive,"scale_free(N, 3)",100
+686,uniform,none,attractive_repulsive,"scale_free(N, 3)",1000
+687,uniform,none,attractive_repulsive,"scale_free(N, 3)",10000
+688,uniform,none,attractive_repulsive,"scale_free(N, 5)",100
+689,uniform,none,attractive_repulsive,"scale_free(N, 5)",1000
+690,uniform,none,attractive_repulsive,"scale_free(N, 5)",10000
+691,uniform,none,random_adoption,erdos_renyi_random(N),100
+692,uniform,none,random_adoption,erdos_renyi_random(N),1000
+693,uniform,none,random_adoption,erdos_renyi_random(N),10000
+694,uniform,none,random_adoption,"small_world(N, 0.0, 3)",100
+695,uniform,none,random_adoption,"small_world(N, 0.0, 3)",1000
+696,uniform,none,random_adoption,"small_world(N, 0.0, 3)",10000
+697,uniform,none,random_adoption,"small_world(N, 0.0, 10)",100
+698,uniform,none,random_adoption,"small_world(N, 0.0, 10)",1000
+699,uniform,none,random_adoption,"small_world(N, 0.0, 10)",10000
+700,uniform,none,random_adoption,"small_world(N, 0.33, 3)",100
+701,uniform,none,random_adoption,"small_world(N, 0.33, 3)",1000
+702,uniform,none,random_adoption,"small_world(N, 0.33, 3)",10000
+703,uniform,none,random_adoption,"small_world(N, 0.33, 10)",100
+704,uniform,none,random_adoption,"small_world(N, 0.33, 10)",1000
+705,uniform,none,random_adoption,"small_world(N, 0.33, 10)",10000
+706,uniform,none,random_adoption,"small_world(N, 0.66, 3)",100
+707,uniform,none,random_adoption,"small_world(N, 0.66, 3)",1000
+708,uniform,none,random_adoption,"small_world(N, 0.66, 3)",10000
+709,uniform,none,random_adoption,"small_world(N, 0.66, 10)",100
+710,uniform,none,random_adoption,"small_world(N, 0.66, 10)",1000
+711,uniform,none,random_adoption,"small_world(N, 0.66, 10)",10000
+712,uniform,none,random_adoption,"scale_free(N, 1)",100
+713,uniform,none,random_adoption,"scale_free(N, 1)",1000
+714,uniform,none,random_adoption,"scale_free(N, 1)",10000
+715,uniform,none,random_adoption,"scale_free(N, 3)",100
+716,uniform,none,random_adoption,"scale_free(N, 3)",1000
+717,uniform,none,random_adoption,"scale_free(N, 3)",10000
+718,uniform,none,random_adoption,"scale_free(N, 5)",100
+719,uniform,none,random_adoption,"scale_free(N, 5)",1000
+720,uniform,none,random_adoption,"scale_free(N, 5)",10000
+721,uniform,none,nonlinear,erdos_renyi_random(N),100
+722,uniform,none,nonlinear,erdos_renyi_random(N),1000
+723,uniform,none,nonlinear,erdos_renyi_random(N),10000
+724,uniform,none,nonlinear,"small_world(N, 0.0, 3)",100
+725,uniform,none,nonlinear,"small_world(N, 0.0, 3)",1000
+726,uniform,none,nonlinear,"small_world(N, 0.0, 3)",10000
+727,uniform,none,nonlinear,"small_world(N, 0.0, 10)",100
+728,uniform,none,nonlinear,"small_world(N, 0.0, 10)",1000
+729,uniform,none,nonlinear,"small_world(N, 0.0, 10)",10000
+730,uniform,none,nonlinear,"small_world(N, 0.33, 3)",100
+731,uniform,none,nonlinear,"small_world(N, 0.33, 3)",1000
+732,uniform,none,nonlinear,"small_world(N, 0.33, 3)",10000
+733,uniform,none,nonlinear,"small_world(N, 0.33, 10)",100
+734,uniform,none,nonlinear,"small_world(N, 0.33, 10)",1000
+735,uniform,none,nonlinear,"small_world(N, 0.33, 10)",10000
+736,uniform,none,nonlinear,"small_world(N, 0.66, 3)",100
+737,uniform,none,nonlinear,"small_world(N, 0.66, 3)",1000
+738,uniform,none,nonlinear,"small_world(N, 0.66, 3)",10000
+739,uniform,none,nonlinear,"small_world(N, 0.66, 10)",100
+740,uniform,none,nonlinear,"small_world(N, 0.66, 10)",1000
+741,uniform,none,nonlinear,"small_world(N, 0.66, 10)",10000
+742,uniform,none,nonlinear,"scale_free(N, 1)",100
+743,uniform,none,nonlinear,"scale_free(N, 1)",1000
+744,uniform,none,nonlinear,"scale_free(N, 1)",10000
+745,uniform,none,nonlinear,"scale_free(N, 3)",100
+746,uniform,none,nonlinear,"scale_free(N, 3)",1000
+747,uniform,none,nonlinear,"scale_free(N, 3)",10000
+748,uniform,none,nonlinear,"scale_free(N, 5)",100
+749,uniform,none,nonlinear,"scale_free(N, 5)",1000
+750,uniform,none,nonlinear,"scale_free(N, 5)",10000
+751,uniform,"N(0, 0.05)",standard_model,erdos_renyi_random(N),100
+752,uniform,"N(0, 0.05)",standard_model,erdos_renyi_random(N),1000
+753,uniform,"N(0, 0.05)",standard_model,erdos_renyi_random(N),10000
+754,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",100
+755,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",1000
+756,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",10000
+757,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",100
+758,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",1000
+759,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",10000
+760,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 3)",100
+761,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 3)",1000
+762,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 3)",10000
+763,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 10)",100
+764,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 10)",1000
+765,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 10)",10000
+766,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",100
+767,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",1000
+768,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",10000
+769,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",100
+770,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",1000
+771,uniform,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",10000
+772,uniform,"N(0, 0.05)",standard_model,"scale_free(N, 1)",100
+773,uniform,"N(0, 0.05)",standard_model,"scale_free(N, 1)",1000
+774,uniform,"N(0, 0.05)",standard_model,"scale_free(N, 1)",10000
+775,uniform,"N(0, 0.05)",standard_model,"scale_free(N, 3)",100
+776,uniform,"N(0, 0.05)",standard_model,"scale_free(N, 3)",1000
+777,uniform,"N(0, 0.05)",standard_model,"scale_free(N, 3)",10000
+778,uniform,"N(0, 0.05)",standard_model,"scale_free(N, 5)",100
+779,uniform,"N(0, 0.05)",standard_model,"scale_free(N, 5)",1000
+780,uniform,"N(0, 0.05)",standard_model,"scale_free(N, 5)",10000
+781,uniform,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),100
+782,uniform,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),1000
+783,uniform,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),10000
+784,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",100
+785,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",1000
+786,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",10000
+787,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",100
+788,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",1000
+789,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",10000
+790,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 3)",100
+791,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 3)",1000
+792,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 3)",10000
+793,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 10)",100
+794,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 10)",1000
+795,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 10)",10000
+796,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",100
+797,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",1000
+798,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",10000
+799,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",100
+800,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",1000
+801,uniform,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",10000
+802,uniform,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",100
+803,uniform,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",1000
+804,uniform,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",10000
+805,uniform,"N(0, 0.05)",similarity_bias,"scale_free(N, 3)",100
+806,uniform,"N(0, 0.05)",similarity_bias,"scale_free(N, 3)",1000
+807,uniform,"N(0, 0.05)",similarity_bias,"scale_free(N, 3)",10000
+808,uniform,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",100
+809,uniform,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",1000
+810,uniform,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",10000
+811,uniform,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),100
+812,uniform,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),1000
+813,uniform,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),10000
+814,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",100
+815,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+816,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",10000
+817,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",100
+818,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+819,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",10000
+820,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 3)",100
+821,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 3)",1000
+822,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 3)",10000
+823,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 10)",100
+824,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 10)",1000
+825,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 10)",10000
+826,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",100
+827,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+828,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",10000
+829,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",100
+830,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+831,uniform,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",10000
+832,uniform,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",100
+833,uniform,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",1000
+834,uniform,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",10000
+835,uniform,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 3)",100
+836,uniform,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 3)",1000
+837,uniform,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 3)",10000
+838,uniform,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",100
+839,uniform,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",1000
+840,uniform,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",10000
+841,uniform,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),100
+842,uniform,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),1000
+843,uniform,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),10000
+844,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",100
+845,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",1000
+846,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",10000
+847,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",100
+848,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",1000
+849,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",10000
+850,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 3)",100
+851,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 3)",1000
+852,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 3)",10000
+853,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 10)",100
+854,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 10)",1000
+855,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 10)",10000
+856,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",100
+857,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",1000
+858,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",10000
+859,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",100
+860,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",1000
+861,uniform,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",10000
+862,uniform,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",100
+863,uniform,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",1000
+864,uniform,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",10000
+865,uniform,"N(0, 0.05)",random_adoption,"scale_free(N, 3)",100
+866,uniform,"N(0, 0.05)",random_adoption,"scale_free(N, 3)",1000
+867,uniform,"N(0, 0.05)",random_adoption,"scale_free(N, 3)",10000
+868,uniform,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",100
+869,uniform,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",1000
+870,uniform,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",10000
+871,uniform,"N(0, 0.05)",nonlinear,erdos_renyi_random(N),100
+872,uniform,"N(0, 0.05)",nonlinear,erdos_renyi_random(N),1000
+873,uniform,"N(0, 0.05)",nonlinear,erdos_renyi_random(N),10000
+874,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 3)",100
+875,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 3)",1000
+876,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 3)",10000
+877,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 10)",100
+878,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 10)",1000
+879,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 10)",10000
+880,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 3)",100
+881,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 3)",1000
+882,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 3)",10000
+883,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 10)",100
+884,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 10)",1000
+885,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 10)",10000
+886,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 3)",100
+887,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 3)",1000
+888,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 3)",10000
+889,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 10)",100
+890,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 10)",1000
+891,uniform,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 10)",10000
+892,uniform,"N(0, 0.05)",nonlinear,"scale_free(N, 1)",100
+893,uniform,"N(0, 0.05)",nonlinear,"scale_free(N, 1)",1000
+894,uniform,"N(0, 0.05)",nonlinear,"scale_free(N, 1)",10000
+895,uniform,"N(0, 0.05)",nonlinear,"scale_free(N, 3)",100
+896,uniform,"N(0, 0.05)",nonlinear,"scale_free(N, 3)",1000
+897,uniform,"N(0, 0.05)",nonlinear,"scale_free(N, 3)",10000
+898,uniform,"N(0, 0.05)",nonlinear,"scale_free(N, 5)",100
+899,uniform,"N(0, 0.05)",nonlinear,"scale_free(N, 5)",1000
+900,uniform,"N(0, 0.05)",nonlinear,"scale_free(N, 5)",10000
+901,uniform,"N(0, 0.1)",standard_model,erdos_renyi_random(N),100
+902,uniform,"N(0, 0.1)",standard_model,erdos_renyi_random(N),1000
+903,uniform,"N(0, 0.1)",standard_model,erdos_renyi_random(N),10000
+904,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",100
+905,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",1000
+906,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",10000
+907,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",100
+908,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",1000
+909,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",10000
+910,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 3)",100
+911,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 3)",1000
+912,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 3)",10000
+913,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 10)",100
+914,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 10)",1000
+915,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 10)",10000
+916,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",100
+917,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",1000
+918,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",10000
+919,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",100
+920,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",1000
+921,uniform,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",10000
+922,uniform,"N(0, 0.1)",standard_model,"scale_free(N, 1)",100
+923,uniform,"N(0, 0.1)",standard_model,"scale_free(N, 1)",1000
+924,uniform,"N(0, 0.1)",standard_model,"scale_free(N, 1)",10000
+925,uniform,"N(0, 0.1)",standard_model,"scale_free(N, 3)",100
+926,uniform,"N(0, 0.1)",standard_model,"scale_free(N, 3)",1000
+927,uniform,"N(0, 0.1)",standard_model,"scale_free(N, 3)",10000
+928,uniform,"N(0, 0.1)",standard_model,"scale_free(N, 5)",100
+929,uniform,"N(0, 0.1)",standard_model,"scale_free(N, 5)",1000
+930,uniform,"N(0, 0.1)",standard_model,"scale_free(N, 5)",10000
+931,uniform,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),100
+932,uniform,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),1000
+933,uniform,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),10000
+934,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",100
+935,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",1000
+936,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",10000
+937,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",100
+938,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",1000
+939,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",10000
+940,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 3)",100
+941,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 3)",1000
+942,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 3)",10000
+943,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 10)",100
+944,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 10)",1000
+945,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 10)",10000
+946,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",100
+947,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",1000
+948,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",10000
+949,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",100
+950,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",1000
+951,uniform,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",10000
+952,uniform,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",100
+953,uniform,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",1000
+954,uniform,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",10000
+955,uniform,"N(0, 0.1)",similarity_bias,"scale_free(N, 3)",100
+956,uniform,"N(0, 0.1)",similarity_bias,"scale_free(N, 3)",1000
+957,uniform,"N(0, 0.1)",similarity_bias,"scale_free(N, 3)",10000
+958,uniform,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",100
+959,uniform,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",1000
+960,uniform,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",10000
+961,uniform,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),100
+962,uniform,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),1000
+963,uniform,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),10000
+964,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",100
+965,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+966,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",10000
+967,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",100
+968,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+969,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",10000
+970,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 3)",100
+971,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 3)",1000
+972,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 3)",10000
+973,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 10)",100
+974,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 10)",1000
+975,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 10)",10000
+976,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",100
+977,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+978,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",10000
+979,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",100
+980,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+981,uniform,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",10000
+982,uniform,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",100
+983,uniform,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",1000
+984,uniform,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",10000
+985,uniform,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 3)",100
+986,uniform,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 3)",1000
+987,uniform,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 3)",10000
+988,uniform,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",100
+989,uniform,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",1000
+990,uniform,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",10000
+991,uniform,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),100
+992,uniform,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),1000
+993,uniform,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),10000
+994,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",100
+995,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",1000
+996,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",10000
+997,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",100
+998,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",1000
+999,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",10000
+1000,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 3)",100
+1001,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 3)",1000
+1002,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 3)",10000
+1003,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 10)",100
+1004,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 10)",1000
+1005,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 10)",10000
+1006,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",100
+1007,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",1000
+1008,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",10000
+1009,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",100
+1010,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",1000
+1011,uniform,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",10000
+1012,uniform,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",100
+1013,uniform,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",1000
+1014,uniform,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",10000
+1015,uniform,"N(0, 0.1)",random_adoption,"scale_free(N, 3)",100
+1016,uniform,"N(0, 0.1)",random_adoption,"scale_free(N, 3)",1000
+1017,uniform,"N(0, 0.1)",random_adoption,"scale_free(N, 3)",10000
+1018,uniform,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",100
+1019,uniform,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",1000
+1020,uniform,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",10000
+1021,uniform,"N(0, 0.1)",nonlinear,erdos_renyi_random(N),100
+1022,uniform,"N(0, 0.1)",nonlinear,erdos_renyi_random(N),1000
+1023,uniform,"N(0, 0.1)",nonlinear,erdos_renyi_random(N),10000
+1024,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 3)",100
+1025,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 3)",1000
+1026,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 3)",10000
+1027,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 10)",100
+1028,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 10)",1000
+1029,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 10)",10000
+1030,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 3)",100
+1031,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 3)",1000
+1032,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 3)",10000
+1033,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 10)",100
+1034,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 10)",1000
+1035,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 10)",10000
+1036,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 3)",100
+1037,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 3)",1000
+1038,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 3)",10000
+1039,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 10)",100
+1040,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 10)",1000
+1041,uniform,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 10)",10000
+1042,uniform,"N(0, 0.1)",nonlinear,"scale_free(N, 1)",100
+1043,uniform,"N(0, 0.1)",nonlinear,"scale_free(N, 1)",1000
+1044,uniform,"N(0, 0.1)",nonlinear,"scale_free(N, 1)",10000
+1045,uniform,"N(0, 0.1)",nonlinear,"scale_free(N, 3)",100
+1046,uniform,"N(0, 0.1)",nonlinear,"scale_free(N, 3)",1000
+1047,uniform,"N(0, 0.1)",nonlinear,"scale_free(N, 3)",10000
+1048,uniform,"N(0, 0.1)",nonlinear,"scale_free(N, 5)",100
+1049,uniform,"N(0, 0.1)",nonlinear,"scale_free(N, 5)",1000
+1050,uniform,"N(0, 0.1)",nonlinear,"scale_free(N, 5)",10000
+1051,uniform,"N(0, 0.2)",standard_model,erdos_renyi_random(N),100
+1052,uniform,"N(0, 0.2)",standard_model,erdos_renyi_random(N),1000
+1053,uniform,"N(0, 0.2)",standard_model,erdos_renyi_random(N),10000
+1054,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 3)",100
+1055,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 3)",1000
+1056,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 3)",10000
+1057,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 10)",100
+1058,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 10)",1000
+1059,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 10)",10000
+1060,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 3)",100
+1061,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 3)",1000
+1062,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 3)",10000
+1063,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 10)",100
+1064,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 10)",1000
+1065,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 10)",10000
+1066,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 3)",100
+1067,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 3)",1000
+1068,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 3)",10000
+1069,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 10)",100
+1070,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 10)",1000
+1071,uniform,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 10)",10000
+1072,uniform,"N(0, 0.2)",standard_model,"scale_free(N, 1)",100
+1073,uniform,"N(0, 0.2)",standard_model,"scale_free(N, 1)",1000
+1074,uniform,"N(0, 0.2)",standard_model,"scale_free(N, 1)",10000
+1075,uniform,"N(0, 0.2)",standard_model,"scale_free(N, 3)",100
+1076,uniform,"N(0, 0.2)",standard_model,"scale_free(N, 3)",1000
+1077,uniform,"N(0, 0.2)",standard_model,"scale_free(N, 3)",10000
+1078,uniform,"N(0, 0.2)",standard_model,"scale_free(N, 5)",100
+1079,uniform,"N(0, 0.2)",standard_model,"scale_free(N, 5)",1000
+1080,uniform,"N(0, 0.2)",standard_model,"scale_free(N, 5)",10000
+1081,uniform,"N(0, 0.2)",similarity_bias,erdos_renyi_random(N),100
+1082,uniform,"N(0, 0.2)",similarity_bias,erdos_renyi_random(N),1000
+1083,uniform,"N(0, 0.2)",similarity_bias,erdos_renyi_random(N),10000
+1084,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 3)",100
+1085,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 3)",1000
+1086,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 3)",10000
+1087,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 10)",100
+1088,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 10)",1000
+1089,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 10)",10000
+1090,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 3)",100
+1091,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 3)",1000
+1092,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 3)",10000
+1093,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 10)",100
+1094,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 10)",1000
+1095,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 10)",10000
+1096,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 3)",100
+1097,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 3)",1000
+1098,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 3)",10000
+1099,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 10)",100
+1100,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 10)",1000
+1101,uniform,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 10)",10000
+1102,uniform,"N(0, 0.2)",similarity_bias,"scale_free(N, 1)",100
+1103,uniform,"N(0, 0.2)",similarity_bias,"scale_free(N, 1)",1000
+1104,uniform,"N(0, 0.2)",similarity_bias,"scale_free(N, 1)",10000
+1105,uniform,"N(0, 0.2)",similarity_bias,"scale_free(N, 3)",100
+1106,uniform,"N(0, 0.2)",similarity_bias,"scale_free(N, 3)",1000
+1107,uniform,"N(0, 0.2)",similarity_bias,"scale_free(N, 3)",10000
+1108,uniform,"N(0, 0.2)",similarity_bias,"scale_free(N, 5)",100
+1109,uniform,"N(0, 0.2)",similarity_bias,"scale_free(N, 5)",1000
+1110,uniform,"N(0, 0.2)",similarity_bias,"scale_free(N, 5)",10000
+1111,uniform,"N(0, 0.2)",attractive_repulsive,erdos_renyi_random(N),100
+1112,uniform,"N(0, 0.2)",attractive_repulsive,erdos_renyi_random(N),1000
+1113,uniform,"N(0, 0.2)",attractive_repulsive,erdos_renyi_random(N),10000
+1114,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 3)",100
+1115,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+1116,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 3)",10000
+1117,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 10)",100
+1118,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+1119,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 10)",10000
+1120,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 3)",100
+1121,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 3)",1000
+1122,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 3)",10000
+1123,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 10)",100
+1124,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 10)",1000
+1125,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 10)",10000
+1126,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 3)",100
+1127,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+1128,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 3)",10000
+1129,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 10)",100
+1130,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+1131,uniform,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 10)",10000
+1132,uniform,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 1)",100
+1133,uniform,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 1)",1000
+1134,uniform,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 1)",10000
+1135,uniform,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 3)",100
+1136,uniform,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 3)",1000
+1137,uniform,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 3)",10000
+1138,uniform,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 5)",100
+1139,uniform,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 5)",1000
+1140,uniform,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 5)",10000
+1141,uniform,"N(0, 0.2)",random_adoption,erdos_renyi_random(N),100
+1142,uniform,"N(0, 0.2)",random_adoption,erdos_renyi_random(N),1000
+1143,uniform,"N(0, 0.2)",random_adoption,erdos_renyi_random(N),10000
+1144,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 3)",100
+1145,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 3)",1000
+1146,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 3)",10000
+1147,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 10)",100
+1148,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 10)",1000
+1149,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 10)",10000
+1150,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 3)",100
+1151,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 3)",1000
+1152,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 3)",10000
+1153,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 10)",100
+1154,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 10)",1000
+1155,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 10)",10000
+1156,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 3)",100
+1157,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 3)",1000
+1158,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 3)",10000
+1159,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 10)",100
+1160,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 10)",1000
+1161,uniform,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 10)",10000
+1162,uniform,"N(0, 0.2)",random_adoption,"scale_free(N, 1)",100
+1163,uniform,"N(0, 0.2)",random_adoption,"scale_free(N, 1)",1000
+1164,uniform,"N(0, 0.2)",random_adoption,"scale_free(N, 1)",10000
+1165,uniform,"N(0, 0.2)",random_adoption,"scale_free(N, 3)",100
+1166,uniform,"N(0, 0.2)",random_adoption,"scale_free(N, 3)",1000
+1167,uniform,"N(0, 0.2)",random_adoption,"scale_free(N, 3)",10000
+1168,uniform,"N(0, 0.2)",random_adoption,"scale_free(N, 5)",100
+1169,uniform,"N(0, 0.2)",random_adoption,"scale_free(N, 5)",1000
+1170,uniform,"N(0, 0.2)",random_adoption,"scale_free(N, 5)",10000
+1171,uniform,"N(0, 0.2)",nonlinear,erdos_renyi_random(N),100
+1172,uniform,"N(0, 0.2)",nonlinear,erdos_renyi_random(N),1000
+1173,uniform,"N(0, 0.2)",nonlinear,erdos_renyi_random(N),10000
+1174,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 3)",100
+1175,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 3)",1000
+1176,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 3)",10000
+1177,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 10)",100
+1178,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 10)",1000
+1179,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 10)",10000
+1180,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 3)",100
+1181,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 3)",1000
+1182,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 3)",10000
+1183,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 10)",100
+1184,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 10)",1000
+1185,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 10)",10000
+1186,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 3)",100
+1187,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 3)",1000
+1188,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 3)",10000
+1189,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 10)",100
+1190,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 10)",1000
+1191,uniform,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 10)",10000
+1192,uniform,"N(0, 0.2)",nonlinear,"scale_free(N, 1)",100
+1193,uniform,"N(0, 0.2)",nonlinear,"scale_free(N, 1)",1000
+1194,uniform,"N(0, 0.2)",nonlinear,"scale_free(N, 1)",10000
+1195,uniform,"N(0, 0.2)",nonlinear,"scale_free(N, 3)",100
+1196,uniform,"N(0, 0.2)",nonlinear,"scale_free(N, 3)",1000
+1197,uniform,"N(0, 0.2)",nonlinear,"scale_free(N, 3)",10000
+1198,uniform,"N(0, 0.2)",nonlinear,"scale_free(N, 5)",100
+1199,uniform,"N(0, 0.2)",nonlinear,"scale_free(N, 5)",1000
+1200,uniform,"N(0, 0.2)",nonlinear,"scale_free(N, 5)",10000
+1201,random,none,standard_model,erdos_renyi_random(N),100
+1202,random,none,standard_model,erdos_renyi_random(N),1000
+1203,random,none,standard_model,erdos_renyi_random(N),10000
+1204,random,none,standard_model,"small_world(N, 0.0, 3)",100
+1205,random,none,standard_model,"small_world(N, 0.0, 3)",1000
+1206,random,none,standard_model,"small_world(N, 0.0, 3)",10000
+1207,random,none,standard_model,"small_world(N, 0.0, 10)",100
+1208,random,none,standard_model,"small_world(N, 0.0, 10)",1000
+1209,random,none,standard_model,"small_world(N, 0.0, 10)",10000
+1210,random,none,standard_model,"small_world(N, 0.33, 3)",100
+1211,random,none,standard_model,"small_world(N, 0.33, 3)",1000
+1212,random,none,standard_model,"small_world(N, 0.33, 3)",10000
+1213,random,none,standard_model,"small_world(N, 0.33, 10)",100
+1214,random,none,standard_model,"small_world(N, 0.33, 10)",1000
+1215,random,none,standard_model,"small_world(N, 0.33, 10)",10000
+1216,random,none,standard_model,"small_world(N, 0.66, 3)",100
+1217,random,none,standard_model,"small_world(N, 0.66, 3)",1000
+1218,random,none,standard_model,"small_world(N, 0.66, 3)",10000
+1219,random,none,standard_model,"small_world(N, 0.66, 10)",100
+1220,random,none,standard_model,"small_world(N, 0.66, 10)",1000
+1221,random,none,standard_model,"small_world(N, 0.66, 10)",10000
+1222,random,none,standard_model,"scale_free(N, 1)",100
+1223,random,none,standard_model,"scale_free(N, 1)",1000
+1224,random,none,standard_model,"scale_free(N, 1)",10000
+1225,random,none,standard_model,"scale_free(N, 3)",100
+1226,random,none,standard_model,"scale_free(N, 3)",1000
+1227,random,none,standard_model,"scale_free(N, 3)",10000
+1228,random,none,standard_model,"scale_free(N, 5)",100
+1229,random,none,standard_model,"scale_free(N, 5)",1000
+1230,random,none,standard_model,"scale_free(N, 5)",10000
+1231,random,none,similarity_bias,erdos_renyi_random(N),100
+1232,random,none,similarity_bias,erdos_renyi_random(N),1000
+1233,random,none,similarity_bias,erdos_renyi_random(N),10000
+1234,random,none,similarity_bias,"small_world(N, 0.0, 3)",100
+1235,random,none,similarity_bias,"small_world(N, 0.0, 3)",1000
+1236,random,none,similarity_bias,"small_world(N, 0.0, 3)",10000
+1237,random,none,similarity_bias,"small_world(N, 0.0, 10)",100
+1238,random,none,similarity_bias,"small_world(N, 0.0, 10)",1000
+1239,random,none,similarity_bias,"small_world(N, 0.0, 10)",10000
+1240,random,none,similarity_bias,"small_world(N, 0.33, 3)",100
+1241,random,none,similarity_bias,"small_world(N, 0.33, 3)",1000
+1242,random,none,similarity_bias,"small_world(N, 0.33, 3)",10000
+1243,random,none,similarity_bias,"small_world(N, 0.33, 10)",100
+1244,random,none,similarity_bias,"small_world(N, 0.33, 10)",1000
+1245,random,none,similarity_bias,"small_world(N, 0.33, 10)",10000
+1246,random,none,similarity_bias,"small_world(N, 0.66, 3)",100
+1247,random,none,similarity_bias,"small_world(N, 0.66, 3)",1000
+1248,random,none,similarity_bias,"small_world(N, 0.66, 3)",10000
+1249,random,none,similarity_bias,"small_world(N, 0.66, 10)",100
+1250,random,none,similarity_bias,"small_world(N, 0.66, 10)",1000
+1251,random,none,similarity_bias,"small_world(N, 0.66, 10)",10000
+1252,random,none,similarity_bias,"scale_free(N, 1)",100
+1253,random,none,similarity_bias,"scale_free(N, 1)",1000
+1254,random,none,similarity_bias,"scale_free(N, 1)",10000
+1255,random,none,similarity_bias,"scale_free(N, 3)",100
+1256,random,none,similarity_bias,"scale_free(N, 3)",1000
+1257,random,none,similarity_bias,"scale_free(N, 3)",10000
+1258,random,none,similarity_bias,"scale_free(N, 5)",100
+1259,random,none,similarity_bias,"scale_free(N, 5)",1000
+1260,random,none,similarity_bias,"scale_free(N, 5)",10000
+1261,random,none,attractive_repulsive,erdos_renyi_random(N),100
+1262,random,none,attractive_repulsive,erdos_renyi_random(N),1000
+1263,random,none,attractive_repulsive,erdos_renyi_random(N),10000
+1264,random,none,attractive_repulsive,"small_world(N, 0.0, 3)",100
+1265,random,none,attractive_repulsive,"small_world(N, 0.0, 3)",1000
+1266,random,none,attractive_repulsive,"small_world(N, 0.0, 3)",10000
+1267,random,none,attractive_repulsive,"small_world(N, 0.0, 10)",100
+1268,random,none,attractive_repulsive,"small_world(N, 0.0, 10)",1000
+1269,random,none,attractive_repulsive,"small_world(N, 0.0, 10)",10000
+1270,random,none,attractive_repulsive,"small_world(N, 0.33, 3)",100
+1271,random,none,attractive_repulsive,"small_world(N, 0.33, 3)",1000
+1272,random,none,attractive_repulsive,"small_world(N, 0.33, 3)",10000
+1273,random,none,attractive_repulsive,"small_world(N, 0.33, 10)",100
+1274,random,none,attractive_repulsive,"small_world(N, 0.33, 10)",1000
+1275,random,none,attractive_repulsive,"small_world(N, 0.33, 10)",10000
+1276,random,none,attractive_repulsive,"small_world(N, 0.66, 3)",100
+1277,random,none,attractive_repulsive,"small_world(N, 0.66, 3)",1000
+1278,random,none,attractive_repulsive,"small_world(N, 0.66, 3)",10000
+1279,random,none,attractive_repulsive,"small_world(N, 0.66, 10)",100
+1280,random,none,attractive_repulsive,"small_world(N, 0.66, 10)",1000
+1281,random,none,attractive_repulsive,"small_world(N, 0.66, 10)",10000
+1282,random,none,attractive_repulsive,"scale_free(N, 1)",100
+1283,random,none,attractive_repulsive,"scale_free(N, 1)",1000
+1284,random,none,attractive_repulsive,"scale_free(N, 1)",10000
+1285,random,none,attractive_repulsive,"scale_free(N, 3)",100
+1286,random,none,attractive_repulsive,"scale_free(N, 3)",1000
+1287,random,none,attractive_repulsive,"scale_free(N, 3)",10000
+1288,random,none,attractive_repulsive,"scale_free(N, 5)",100
+1289,random,none,attractive_repulsive,"scale_free(N, 5)",1000
+1290,random,none,attractive_repulsive,"scale_free(N, 5)",10000
+1291,random,none,random_adoption,erdos_renyi_random(N),100
+1292,random,none,random_adoption,erdos_renyi_random(N),1000
+1293,random,none,random_adoption,erdos_renyi_random(N),10000
+1294,random,none,random_adoption,"small_world(N, 0.0, 3)",100
+1295,random,none,random_adoption,"small_world(N, 0.0, 3)",1000
+1296,random,none,random_adoption,"small_world(N, 0.0, 3)",10000
+1297,random,none,random_adoption,"small_world(N, 0.0, 10)",100
+1298,random,none,random_adoption,"small_world(N, 0.0, 10)",1000
+1299,random,none,random_adoption,"small_world(N, 0.0, 10)",10000
+1300,random,none,random_adoption,"small_world(N, 0.33, 3)",100
+1301,random,none,random_adoption,"small_world(N, 0.33, 3)",1000
+1302,random,none,random_adoption,"small_world(N, 0.33, 3)",10000
+1303,random,none,random_adoption,"small_world(N, 0.33, 10)",100
+1304,random,none,random_adoption,"small_world(N, 0.33, 10)",1000
+1305,random,none,random_adoption,"small_world(N, 0.33, 10)",10000
+1306,random,none,random_adoption,"small_world(N, 0.66, 3)",100
+1307,random,none,random_adoption,"small_world(N, 0.66, 3)",1000
+1308,random,none,random_adoption,"small_world(N, 0.66, 3)",10000
+1309,random,none,random_adoption,"small_world(N, 0.66, 10)",100
+1310,random,none,random_adoption,"small_world(N, 0.66, 10)",1000
+1311,random,none,random_adoption,"small_world(N, 0.66, 10)",10000
+1312,random,none,random_adoption,"scale_free(N, 1)",100
+1313,random,none,random_adoption,"scale_free(N, 1)",1000
+1314,random,none,random_adoption,"scale_free(N, 1)",10000
+1315,random,none,random_adoption,"scale_free(N, 3)",100
+1316,random,none,random_adoption,"scale_free(N, 3)",1000
+1317,random,none,random_adoption,"scale_free(N, 3)",10000
+1318,random,none,random_adoption,"scale_free(N, 5)",100
+1319,random,none,random_adoption,"scale_free(N, 5)",1000
+1320,random,none,random_adoption,"scale_free(N, 5)",10000
+1321,random,none,nonlinear,erdos_renyi_random(N),100
+1322,random,none,nonlinear,erdos_renyi_random(N),1000
+1323,random,none,nonlinear,erdos_renyi_random(N),10000
+1324,random,none,nonlinear,"small_world(N, 0.0, 3)",100
+1325,random,none,nonlinear,"small_world(N, 0.0, 3)",1000
+1326,random,none,nonlinear,"small_world(N, 0.0, 3)",10000
+1327,random,none,nonlinear,"small_world(N, 0.0, 10)",100
+1328,random,none,nonlinear,"small_world(N, 0.0, 10)",1000
+1329,random,none,nonlinear,"small_world(N, 0.0, 10)",10000
+1330,random,none,nonlinear,"small_world(N, 0.33, 3)",100
+1331,random,none,nonlinear,"small_world(N, 0.33, 3)",1000
+1332,random,none,nonlinear,"small_world(N, 0.33, 3)",10000
+1333,random,none,nonlinear,"small_world(N, 0.33, 10)",100
+1334,random,none,nonlinear,"small_world(N, 0.33, 10)",1000
+1335,random,none,nonlinear,"small_world(N, 0.33, 10)",10000
+1336,random,none,nonlinear,"small_world(N, 0.66, 3)",100
+1337,random,none,nonlinear,"small_world(N, 0.66, 3)",1000
+1338,random,none,nonlinear,"small_world(N, 0.66, 3)",10000
+1339,random,none,nonlinear,"small_world(N, 0.66, 10)",100
+1340,random,none,nonlinear,"small_world(N, 0.66, 10)",1000
+1341,random,none,nonlinear,"small_world(N, 0.66, 10)",10000
+1342,random,none,nonlinear,"scale_free(N, 1)",100
+1343,random,none,nonlinear,"scale_free(N, 1)",1000
+1344,random,none,nonlinear,"scale_free(N, 1)",10000
+1345,random,none,nonlinear,"scale_free(N, 3)",100
+1346,random,none,nonlinear,"scale_free(N, 3)",1000
+1347,random,none,nonlinear,"scale_free(N, 3)",10000
+1348,random,none,nonlinear,"scale_free(N, 5)",100
+1349,random,none,nonlinear,"scale_free(N, 5)",1000
+1350,random,none,nonlinear,"scale_free(N, 5)",10000
+1351,random,"N(0, 0.05)",standard_model,erdos_renyi_random(N),100
+1352,random,"N(0, 0.05)",standard_model,erdos_renyi_random(N),1000
+1353,random,"N(0, 0.05)",standard_model,erdos_renyi_random(N),10000
+1354,random,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",100
+1355,random,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",1000
+1356,random,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",10000
+1357,random,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",100
+1358,random,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",1000
+1359,random,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",10000
+1360,random,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 3)",100
+1361,random,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 3)",1000
+1362,random,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 3)",10000
+1363,random,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 10)",100
+1364,random,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 10)",1000
+1365,random,"N(0, 0.05)",standard_model,"small_world(N, 0.33, 10)",10000
+1366,random,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",100
+1367,random,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",1000
+1368,random,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",10000
+1369,random,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",100
+1370,random,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",1000
+1371,random,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",10000
+1372,random,"N(0, 0.05)",standard_model,"scale_free(N, 1)",100
+1373,random,"N(0, 0.05)",standard_model,"scale_free(N, 1)",1000
+1374,random,"N(0, 0.05)",standard_model,"scale_free(N, 1)",10000
+1375,random,"N(0, 0.05)",standard_model,"scale_free(N, 3)",100
+1376,random,"N(0, 0.05)",standard_model,"scale_free(N, 3)",1000
+1377,random,"N(0, 0.05)",standard_model,"scale_free(N, 3)",10000
+1378,random,"N(0, 0.05)",standard_model,"scale_free(N, 5)",100
+1379,random,"N(0, 0.05)",standard_model,"scale_free(N, 5)",1000
+1380,random,"N(0, 0.05)",standard_model,"scale_free(N, 5)",10000
+1381,random,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),100
+1382,random,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),1000
+1383,random,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),10000
+1384,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",100
+1385,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",1000
+1386,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",10000
+1387,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",100
+1388,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",1000
+1389,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",10000
+1390,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 3)",100
+1391,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 3)",1000
+1392,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 3)",10000
+1393,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 10)",100
+1394,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 10)",1000
+1395,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.33, 10)",10000
+1396,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",100
+1397,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",1000
+1398,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",10000
+1399,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",100
+1400,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",1000
+1401,random,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",10000
+1402,random,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",100
+1403,random,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",1000
+1404,random,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",10000
+1405,random,"N(0, 0.05)",similarity_bias,"scale_free(N, 3)",100
+1406,random,"N(0, 0.05)",similarity_bias,"scale_free(N, 3)",1000
+1407,random,"N(0, 0.05)",similarity_bias,"scale_free(N, 3)",10000
+1408,random,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",100
+1409,random,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",1000
+1410,random,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",10000
+1411,random,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),100
+1412,random,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),1000
+1413,random,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),10000
+1414,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",100
+1415,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+1416,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",10000
+1417,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",100
+1418,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+1419,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",10000
+1420,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 3)",100
+1421,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 3)",1000
+1422,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 3)",10000
+1423,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 10)",100
+1424,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 10)",1000
+1425,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.33, 10)",10000
+1426,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",100
+1427,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+1428,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",10000
+1429,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",100
+1430,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+1431,random,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",10000
+1432,random,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",100
+1433,random,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",1000
+1434,random,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",10000
+1435,random,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 3)",100
+1436,random,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 3)",1000
+1437,random,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 3)",10000
+1438,random,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",100
+1439,random,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",1000
+1440,random,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",10000
+1441,random,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),100
+1442,random,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),1000
+1443,random,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),10000
+1444,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",100
+1445,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",1000
+1446,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",10000
+1447,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",100
+1448,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",1000
+1449,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",10000
+1450,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 3)",100
+1451,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 3)",1000
+1452,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 3)",10000
+1453,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 10)",100
+1454,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 10)",1000
+1455,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.33, 10)",10000
+1456,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",100
+1457,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",1000
+1458,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",10000
+1459,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",100
+1460,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",1000
+1461,random,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",10000
+1462,random,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",100
+1463,random,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",1000
+1464,random,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",10000
+1465,random,"N(0, 0.05)",random_adoption,"scale_free(N, 3)",100
+1466,random,"N(0, 0.05)",random_adoption,"scale_free(N, 3)",1000
+1467,random,"N(0, 0.05)",random_adoption,"scale_free(N, 3)",10000
+1468,random,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",100
+1469,random,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",1000
+1470,random,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",10000
+1471,random,"N(0, 0.05)",nonlinear,erdos_renyi_random(N),100
+1472,random,"N(0, 0.05)",nonlinear,erdos_renyi_random(N),1000
+1473,random,"N(0, 0.05)",nonlinear,erdos_renyi_random(N),10000
+1474,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 3)",100
+1475,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 3)",1000
+1476,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 3)",10000
+1477,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 10)",100
+1478,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 10)",1000
+1479,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.0, 10)",10000
+1480,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 3)",100
+1481,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 3)",1000
+1482,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 3)",10000
+1483,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 10)",100
+1484,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 10)",1000
+1485,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.33, 10)",10000
+1486,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 3)",100
+1487,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 3)",1000
+1488,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 3)",10000
+1489,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 10)",100
+1490,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 10)",1000
+1491,random,"N(0, 0.05)",nonlinear,"small_world(N, 0.66, 10)",10000
+1492,random,"N(0, 0.05)",nonlinear,"scale_free(N, 1)",100
+1493,random,"N(0, 0.05)",nonlinear,"scale_free(N, 1)",1000
+1494,random,"N(0, 0.05)",nonlinear,"scale_free(N, 1)",10000
+1495,random,"N(0, 0.05)",nonlinear,"scale_free(N, 3)",100
+1496,random,"N(0, 0.05)",nonlinear,"scale_free(N, 3)",1000
+1497,random,"N(0, 0.05)",nonlinear,"scale_free(N, 3)",10000
+1498,random,"N(0, 0.05)",nonlinear,"scale_free(N, 5)",100
+1499,random,"N(0, 0.05)",nonlinear,"scale_free(N, 5)",1000
+1500,random,"N(0, 0.05)",nonlinear,"scale_free(N, 5)",10000
+1501,random,"N(0, 0.1)",standard_model,erdos_renyi_random(N),100
+1502,random,"N(0, 0.1)",standard_model,erdos_renyi_random(N),1000
+1503,random,"N(0, 0.1)",standard_model,erdos_renyi_random(N),10000
+1504,random,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",100
+1505,random,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",1000
+1506,random,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",10000
+1507,random,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",100
+1508,random,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",1000
+1509,random,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",10000
+1510,random,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 3)",100
+1511,random,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 3)",1000
+1512,random,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 3)",10000
+1513,random,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 10)",100
+1514,random,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 10)",1000
+1515,random,"N(0, 0.1)",standard_model,"small_world(N, 0.33, 10)",10000
+1516,random,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",100
+1517,random,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",1000
+1518,random,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",10000
+1519,random,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",100
+1520,random,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",1000
+1521,random,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",10000
+1522,random,"N(0, 0.1)",standard_model,"scale_free(N, 1)",100
+1523,random,"N(0, 0.1)",standard_model,"scale_free(N, 1)",1000
+1524,random,"N(0, 0.1)",standard_model,"scale_free(N, 1)",10000
+1525,random,"N(0, 0.1)",standard_model,"scale_free(N, 3)",100
+1526,random,"N(0, 0.1)",standard_model,"scale_free(N, 3)",1000
+1527,random,"N(0, 0.1)",standard_model,"scale_free(N, 3)",10000
+1528,random,"N(0, 0.1)",standard_model,"scale_free(N, 5)",100
+1529,random,"N(0, 0.1)",standard_model,"scale_free(N, 5)",1000
+1530,random,"N(0, 0.1)",standard_model,"scale_free(N, 5)",10000
+1531,random,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),100
+1532,random,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),1000
+1533,random,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),10000
+1534,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",100
+1535,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",1000
+1536,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",10000
+1537,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",100
+1538,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",1000
+1539,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",10000
+1540,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 3)",100
+1541,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 3)",1000
+1542,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 3)",10000
+1543,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 10)",100
+1544,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 10)",1000
+1545,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.33, 10)",10000
+1546,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",100
+1547,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",1000
+1548,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",10000
+1549,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",100
+1550,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",1000
+1551,random,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",10000
+1552,random,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",100
+1553,random,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",1000
+1554,random,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",10000
+1555,random,"N(0, 0.1)",similarity_bias,"scale_free(N, 3)",100
+1556,random,"N(0, 0.1)",similarity_bias,"scale_free(N, 3)",1000
+1557,random,"N(0, 0.1)",similarity_bias,"scale_free(N, 3)",10000
+1558,random,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",100
+1559,random,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",1000
+1560,random,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",10000
+1561,random,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),100
+1562,random,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),1000
+1563,random,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),10000
+1564,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",100
+1565,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+1566,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",10000
+1567,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",100
+1568,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+1569,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",10000
+1570,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 3)",100
+1571,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 3)",1000
+1572,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 3)",10000
+1573,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 10)",100
+1574,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 10)",1000
+1575,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.33, 10)",10000
+1576,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",100
+1577,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+1578,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",10000
+1579,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",100
+1580,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+1581,random,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",10000
+1582,random,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",100
+1583,random,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",1000
+1584,random,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",10000
+1585,random,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 3)",100
+1586,random,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 3)",1000
+1587,random,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 3)",10000
+1588,random,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",100
+1589,random,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",1000
+1590,random,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",10000
+1591,random,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),100
+1592,random,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),1000
+1593,random,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),10000
+1594,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",100
+1595,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",1000
+1596,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",10000
+1597,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",100
+1598,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",1000
+1599,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",10000
+1600,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 3)",100
+1601,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 3)",1000
+1602,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 3)",10000
+1603,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 10)",100
+1604,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 10)",1000
+1605,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.33, 10)",10000
+1606,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",100
+1607,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",1000
+1608,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",10000
+1609,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",100
+1610,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",1000
+1611,random,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",10000
+1612,random,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",100
+1613,random,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",1000
+1614,random,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",10000
+1615,random,"N(0, 0.1)",random_adoption,"scale_free(N, 3)",100
+1616,random,"N(0, 0.1)",random_adoption,"scale_free(N, 3)",1000
+1617,random,"N(0, 0.1)",random_adoption,"scale_free(N, 3)",10000
+1618,random,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",100
+1619,random,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",1000
+1620,random,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",10000
+1621,random,"N(0, 0.1)",nonlinear,erdos_renyi_random(N),100
+1622,random,"N(0, 0.1)",nonlinear,erdos_renyi_random(N),1000
+1623,random,"N(0, 0.1)",nonlinear,erdos_renyi_random(N),10000
+1624,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 3)",100
+1625,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 3)",1000
+1626,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 3)",10000
+1627,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 10)",100
+1628,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 10)",1000
+1629,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.0, 10)",10000
+1630,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 3)",100
+1631,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 3)",1000
+1632,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 3)",10000
+1633,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 10)",100
+1634,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 10)",1000
+1635,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.33, 10)",10000
+1636,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 3)",100
+1637,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 3)",1000
+1638,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 3)",10000
+1639,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 10)",100
+1640,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 10)",1000
+1641,random,"N(0, 0.1)",nonlinear,"small_world(N, 0.66, 10)",10000
+1642,random,"N(0, 0.1)",nonlinear,"scale_free(N, 1)",100
+1643,random,"N(0, 0.1)",nonlinear,"scale_free(N, 1)",1000
+1644,random,"N(0, 0.1)",nonlinear,"scale_free(N, 1)",10000
+1645,random,"N(0, 0.1)",nonlinear,"scale_free(N, 3)",100
+1646,random,"N(0, 0.1)",nonlinear,"scale_free(N, 3)",1000
+1647,random,"N(0, 0.1)",nonlinear,"scale_free(N, 3)",10000
+1648,random,"N(0, 0.1)",nonlinear,"scale_free(N, 5)",100
+1649,random,"N(0, 0.1)",nonlinear,"scale_free(N, 5)",1000
+1650,random,"N(0, 0.1)",nonlinear,"scale_free(N, 5)",10000
+1651,random,"N(0, 0.2)",standard_model,erdos_renyi_random(N),100
+1652,random,"N(0, 0.2)",standard_model,erdos_renyi_random(N),1000
+1653,random,"N(0, 0.2)",standard_model,erdos_renyi_random(N),10000
+1654,random,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 3)",100
+1655,random,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 3)",1000
+1656,random,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 3)",10000
+1657,random,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 10)",100
+1658,random,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 10)",1000
+1659,random,"N(0, 0.2)",standard_model,"small_world(N, 0.0, 10)",10000
+1660,random,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 3)",100
+1661,random,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 3)",1000
+1662,random,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 3)",10000
+1663,random,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 10)",100
+1664,random,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 10)",1000
+1665,random,"N(0, 0.2)",standard_model,"small_world(N, 0.33, 10)",10000
+1666,random,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 3)",100
+1667,random,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 3)",1000
+1668,random,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 3)",10000
+1669,random,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 10)",100
+1670,random,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 10)",1000
+1671,random,"N(0, 0.2)",standard_model,"small_world(N, 0.66, 10)",10000
+1672,random,"N(0, 0.2)",standard_model,"scale_free(N, 1)",100
+1673,random,"N(0, 0.2)",standard_model,"scale_free(N, 1)",1000
+1674,random,"N(0, 0.2)",standard_model,"scale_free(N, 1)",10000
+1675,random,"N(0, 0.2)",standard_model,"scale_free(N, 3)",100
+1676,random,"N(0, 0.2)",standard_model,"scale_free(N, 3)",1000
+1677,random,"N(0, 0.2)",standard_model,"scale_free(N, 3)",10000
+1678,random,"N(0, 0.2)",standard_model,"scale_free(N, 5)",100
+1679,random,"N(0, 0.2)",standard_model,"scale_free(N, 5)",1000
+1680,random,"N(0, 0.2)",standard_model,"scale_free(N, 5)",10000
+1681,random,"N(0, 0.2)",similarity_bias,erdos_renyi_random(N),100
+1682,random,"N(0, 0.2)",similarity_bias,erdos_renyi_random(N),1000
+1683,random,"N(0, 0.2)",similarity_bias,erdos_renyi_random(N),10000
+1684,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 3)",100
+1685,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 3)",1000
+1686,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 3)",10000
+1687,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 10)",100
+1688,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 10)",1000
+1689,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.0, 10)",10000
+1690,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 3)",100
+1691,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 3)",1000
+1692,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 3)",10000
+1693,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 10)",100
+1694,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 10)",1000
+1695,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.33, 10)",10000
+1696,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 3)",100
+1697,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 3)",1000
+1698,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 3)",10000
+1699,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 10)",100
+1700,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 10)",1000
+1701,random,"N(0, 0.2)",similarity_bias,"small_world(N, 0.66, 10)",10000
+1702,random,"N(0, 0.2)",similarity_bias,"scale_free(N, 1)",100
+1703,random,"N(0, 0.2)",similarity_bias,"scale_free(N, 1)",1000
+1704,random,"N(0, 0.2)",similarity_bias,"scale_free(N, 1)",10000
+1705,random,"N(0, 0.2)",similarity_bias,"scale_free(N, 3)",100
+1706,random,"N(0, 0.2)",similarity_bias,"scale_free(N, 3)",1000
+1707,random,"N(0, 0.2)",similarity_bias,"scale_free(N, 3)",10000
+1708,random,"N(0, 0.2)",similarity_bias,"scale_free(N, 5)",100
+1709,random,"N(0, 0.2)",similarity_bias,"scale_free(N, 5)",1000
+1710,random,"N(0, 0.2)",similarity_bias,"scale_free(N, 5)",10000
+1711,random,"N(0, 0.2)",attractive_repulsive,erdos_renyi_random(N),100
+1712,random,"N(0, 0.2)",attractive_repulsive,erdos_renyi_random(N),1000
+1713,random,"N(0, 0.2)",attractive_repulsive,erdos_renyi_random(N),10000
+1714,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 3)",100
+1715,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+1716,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 3)",10000
+1717,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 10)",100
+1718,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+1719,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.0, 10)",10000
+1720,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 3)",100
+1721,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 3)",1000
+1722,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 3)",10000
+1723,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 10)",100
+1724,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 10)",1000
+1725,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.33, 10)",10000
+1726,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 3)",100
+1727,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+1728,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 3)",10000
+1729,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 10)",100
+1730,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+1731,random,"N(0, 0.2)",attractive_repulsive,"small_world(N, 0.66, 10)",10000
+1732,random,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 1)",100
+1733,random,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 1)",1000
+1734,random,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 1)",10000
+1735,random,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 3)",100
+1736,random,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 3)",1000
+1737,random,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 3)",10000
+1738,random,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 5)",100
+1739,random,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 5)",1000
+1740,random,"N(0, 0.2)",attractive_repulsive,"scale_free(N, 5)",10000
+1741,random,"N(0, 0.2)",random_adoption,erdos_renyi_random(N),100
+1742,random,"N(0, 0.2)",random_adoption,erdos_renyi_random(N),1000
+1743,random,"N(0, 0.2)",random_adoption,erdos_renyi_random(N),10000
+1744,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 3)",100
+1745,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 3)",1000
+1746,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 3)",10000
+1747,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 10)",100
+1748,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 10)",1000
+1749,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.0, 10)",10000
+1750,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 3)",100
+1751,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 3)",1000
+1752,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 3)",10000
+1753,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 10)",100
+1754,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 10)",1000
+1755,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.33, 10)",10000
+1756,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 3)",100
+1757,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 3)",1000
+1758,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 3)",10000
+1759,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 10)",100
+1760,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 10)",1000
+1761,random,"N(0, 0.2)",random_adoption,"small_world(N, 0.66, 10)",10000
+1762,random,"N(0, 0.2)",random_adoption,"scale_free(N, 1)",100
+1763,random,"N(0, 0.2)",random_adoption,"scale_free(N, 1)",1000
+1764,random,"N(0, 0.2)",random_adoption,"scale_free(N, 1)",10000
+1765,random,"N(0, 0.2)",random_adoption,"scale_free(N, 3)",100
+1766,random,"N(0, 0.2)",random_adoption,"scale_free(N, 3)",1000
+1767,random,"N(0, 0.2)",random_adoption,"scale_free(N, 3)",10000
+1768,random,"N(0, 0.2)",random_adoption,"scale_free(N, 5)",100
+1769,random,"N(0, 0.2)",random_adoption,"scale_free(N, 5)",1000
+1770,random,"N(0, 0.2)",random_adoption,"scale_free(N, 5)",10000
+1771,random,"N(0, 0.2)",nonlinear,erdos_renyi_random(N),100
+1772,random,"N(0, 0.2)",nonlinear,erdos_renyi_random(N),1000
+1773,random,"N(0, 0.2)",nonlinear,erdos_renyi_random(N),10000
+1774,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 3)",100
+1775,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 3)",1000
+1776,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 3)",10000
+1777,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 10)",100
+1778,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 10)",1000
+1779,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.0, 10)",10000
+1780,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 3)",100
+1781,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 3)",1000
+1782,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 3)",10000
+1783,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 10)",100
+1784,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 10)",1000
+1785,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.33, 10)",10000
+1786,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 3)",100
+1787,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 3)",1000
+1788,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 3)",10000
+1789,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 10)",100
+1790,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 10)",1000
+1791,random,"N(0, 0.2)",nonlinear,"small_world(N, 0.66, 10)",10000
+1792,random,"N(0, 0.2)",nonlinear,"scale_free(N, 1)",100
+1793,random,"N(0, 0.2)",nonlinear,"scale_free(N, 1)",1000
+1794,random,"N(0, 0.2)",nonlinear,"scale_free(N, 1)",10000
+1795,random,"N(0, 0.2)",nonlinear,"scale_free(N, 3)",100
+1796,random,"N(0, 0.2)",nonlinear,"scale_free(N, 3)",1000
+1797,random,"N(0, 0.2)",nonlinear,"scale_free(N, 3)",10000
+1798,random,"N(0, 0.2)",nonlinear,"scale_free(N, 5)",100
+1799,random,"N(0, 0.2)",nonlinear,"scale_free(N, 5)",1000
+1800,random,"N(0, 0.2)",nonlinear,"scale_free(N, 5)",10000

@@ -1,0 +1,85 @@
+,agent_activation_regime,influence_error_distribution,influence_model,network_structure_model,population_size
+1,synchronous,none,standard_model,erdos_renyi_random(N),1000
+2,synchronous,none,standard_model,"small_world(N, 0.0, 3)",1000
+3,synchronous,none,standard_model,"small_world(N, 0.0, 10)",1000
+4,synchronous,none,standard_model,"small_world(N, 0.66, 3)",1000
+5,synchronous,none,standard_model,"small_world(N, 0.66, 10)",1000
+6,synchronous,none,standard_model,"scale_free(N, 1)",1000
+7,synchronous,none,standard_model,"scale_free(N, 5)",1000
+8,synchronous,none,similarity_bias,erdos_renyi_random(N),1000
+9,synchronous,none,similarity_bias,"small_world(N, 0.0, 3)",1000
+10,synchronous,none,similarity_bias,"small_world(N, 0.0, 10)",1000
+11,synchronous,none,similarity_bias,"small_world(N, 0.66, 3)",1000
+12,synchronous,none,similarity_bias,"small_world(N, 0.66, 10)",1000
+13,synchronous,none,similarity_bias,"scale_free(N, 1)",1000
+14,synchronous,none,similarity_bias,"scale_free(N, 5)",1000
+15,synchronous,none,attractive_repulsive,erdos_renyi_random(N),1000
+16,synchronous,none,attractive_repulsive,"small_world(N, 0.0, 3)",1000
+17,synchronous,none,attractive_repulsive,"small_world(N, 0.0, 10)",1000
+18,synchronous,none,attractive_repulsive,"small_world(N, 0.66, 3)",1000
+19,synchronous,none,attractive_repulsive,"small_world(N, 0.66, 10)",1000
+20,synchronous,none,attractive_repulsive,"scale_free(N, 1)",1000
+21,synchronous,none,attractive_repulsive,"scale_free(N, 5)",1000
+22,synchronous,none,random_adoption,erdos_renyi_random(N),1000
+23,synchronous,none,random_adoption,"small_world(N, 0.0, 3)",1000
+24,synchronous,none,random_adoption,"small_world(N, 0.0, 10)",1000
+25,synchronous,none,random_adoption,"small_world(N, 0.66, 3)",1000
+26,synchronous,none,random_adoption,"small_world(N, 0.66, 10)",1000
+27,synchronous,none,random_adoption,"scale_free(N, 1)",1000
+28,synchronous,none,random_adoption,"scale_free(N, 5)",1000
+29,synchronous,"N(0, 0.05)",standard_model,erdos_renyi_random(N),1000
+30,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 3)",1000
+31,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.0, 10)",1000
+32,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 3)",1000
+33,synchronous,"N(0, 0.05)",standard_model,"small_world(N, 0.66, 10)",1000
+34,synchronous,"N(0, 0.05)",standard_model,"scale_free(N, 1)",1000
+35,synchronous,"N(0, 0.05)",standard_model,"scale_free(N, 5)",1000
+36,synchronous,"N(0, 0.05)",similarity_bias,erdos_renyi_random(N),1000
+37,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 3)",1000
+38,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.0, 10)",1000
+39,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 3)",1000
+40,synchronous,"N(0, 0.05)",similarity_bias,"small_world(N, 0.66, 10)",1000
+41,synchronous,"N(0, 0.05)",similarity_bias,"scale_free(N, 1)",1000
+42,synchronous,"N(0, 0.05)",similarity_bias,"scale_free(N, 5)",1000
+43,synchronous,"N(0, 0.05)",attractive_repulsive,erdos_renyi_random(N),1000
+44,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+45,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+46,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+47,synchronous,"N(0, 0.05)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+48,synchronous,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 1)",1000
+49,synchronous,"N(0, 0.05)",attractive_repulsive,"scale_free(N, 5)",1000
+50,synchronous,"N(0, 0.05)",random_adoption,erdos_renyi_random(N),1000
+51,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 3)",1000
+52,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.0, 10)",1000
+53,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 3)",1000
+54,synchronous,"N(0, 0.05)",random_adoption,"small_world(N, 0.66, 10)",1000
+55,synchronous,"N(0, 0.05)",random_adoption,"scale_free(N, 1)",1000
+56,synchronous,"N(0, 0.05)",random_adoption,"scale_free(N, 5)",1000
+57,synchronous,"N(0, 0.1)",standard_model,erdos_renyi_random(N),1000
+58,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 3)",1000
+59,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.0, 10)",1000
+60,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 3)",1000
+61,synchronous,"N(0, 0.1)",standard_model,"small_world(N, 0.66, 10)",1000
+62,synchronous,"N(0, 0.1)",standard_model,"scale_free(N, 1)",1000
+63,synchronous,"N(0, 0.1)",standard_model,"scale_free(N, 5)",1000
+64,synchronous,"N(0, 0.1)",similarity_bias,erdos_renyi_random(N),1000
+65,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 3)",1000
+66,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.0, 10)",1000
+67,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 3)",1000
+68,synchronous,"N(0, 0.1)",similarity_bias,"small_world(N, 0.66, 10)",1000
+69,synchronous,"N(0, 0.1)",similarity_bias,"scale_free(N, 1)",1000
+70,synchronous,"N(0, 0.1)",similarity_bias,"scale_free(N, 5)",1000
+71,synchronous,"N(0, 0.1)",attractive_repulsive,erdos_renyi_random(N),1000
+72,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 3)",1000
+73,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.0, 10)",1000
+74,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 3)",1000
+75,synchronous,"N(0, 0.1)",attractive_repulsive,"small_world(N, 0.66, 10)",1000
+76,synchronous,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 1)",1000
+77,synchronous,"N(0, 0.1)",attractive_repulsive,"scale_free(N, 5)",1000
+78,synchronous,"N(0, 0.1)",random_adoption,erdos_renyi_random(N),1000
+79,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 3)",1000
+80,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.0, 10)",1000
+81,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 3)",1000
+82,synchronous,"N(0, 0.1)",random_adoption,"small_world(N, 0.66, 10)",1000
+83,synchronous,"N(0, 0.1)",random_adoption,"scale_free(N, 1)",1000
+84,synchronous,"N(0, 0.1)",random_adoption,"scale_free(N, 5)",1000
